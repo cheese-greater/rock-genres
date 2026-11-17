@@ -7,14 +7,14 @@ export const rootsRock: SceneDefinition = {
 	genres: [
 		{
 			name: 'Blues Rock',
-			year: 1966,
+			year: 1963,
 			heaviness: 32,
 			font: 'western',
 			description: 'Electric blues amplified and stretched out with extended guitar solos.',
 			bands: [
 				'The Jimi Hendrix Experience',
 				'Cream',
-				'The Allman Brothers Band',
+				'The Paul Butterfield Blues Band',
 				'Johnny Winter',
 				'Rory Gallagher',
 				'ZZ Top',
@@ -22,11 +22,15 @@ export const rootsRock: SceneDefinition = {
 				'Gary Moore',
 				'The Black Keys',
 				'Joe Bonamassa'
+			],
+			sources: [
+				'https://www.allmusic.com/style/blues-rock-ma0000002468',
+				'https://en.wikipedia.org/wiki/Blues_rock'
 			]
 		},
 		{
 			name: 'British Blues',
-			year: 1962,
+			year: 1958,
 			heaviness: 24,
 			font: 'western',
 			description: 'Young British players reviving Chicago blues and launching a generation of guitar heroes.',
@@ -40,7 +44,11 @@ export const rootsRock: SceneDefinition = {
 				'Savoy Brown',
 				'Chicken Shack',
 				'Free',
-				'Taste'
+				'The Rolling Stones'
+			],
+			sources: [
+				'https://www.allmusic.com/style/british-blues-ma0000002482',
+				'https://en.wikipedia.org/wiki/British_blues'
 			]
 		},
 		{
@@ -60,6 +68,10 @@ export const rootsRock: SceneDefinition = {
 				'The Black Crowes',
 				'Blackfoot',
 				'Drive-By Truckers'
+			],
+			sources: [
+				'https://www.allmusic.com/style/southern-rock-ma0000002872',
+				'https://en.wikipedia.org/wiki/Southern_rock'
 			]
 		},
 		{
@@ -79,11 +91,15 @@ export const rootsRock: SceneDefinition = {
 				'New Riders of the Purple Sage',
 				'Pure Prairie League',
 				'The Band'
+			],
+			sources: [
+				'https://www.allmusic.com/style/country-rock-ma0000002536',
+				'https://en.wikipedia.org/wiki/Country_rock'
 			]
 		},
 		{
 			name: 'Swamp Rock',
-			year: 1968,
+			year: 1966,
 			heaviness: 20,
 			font: 'western',
 			description: 'Gritty, Louisiana-flavored rock steeped in bayou blues and soul.',
@@ -94,12 +110,15 @@ export const rootsRock: SceneDefinition = {
 				'Dale Hawkins',
 				'J.J. Cale',
 				'Little Feat',
-				'Delaney & Bonnie'
-			]
+				'Delaney & Bonnie',
+				'Leon Russell',
+				'Redbone'
+			],
+			sources: ['https://en.wikipedia.org/wiki/Swamp_rock']
 		},
 		{
 			name: 'Heartland Rock',
-			year: 1975,
+			year: 1978,
 			heaviness: 15,
 			font: 'condensed',
 			description: 'Plainspoken, working-class American rock about small towns and open roads.',
@@ -111,8 +130,13 @@ export const rootsRock: SceneDefinition = {
 				'Bryan Adams',
 				'Melissa Etheridge',
 				'Steve Earle',
+				'John Hiatt',
 				'The Gaslight Anthem',
 				'The War on Drugs'
+			],
+			sources: [
+				'https://www.allmusic.com/style/heartland-rock-ma0000012246',
+				'https://en.wikipedia.org/wiki/Heartland_rock'
 			]
 		},
 		{
@@ -132,6 +156,10 @@ export const rootsRock: SceneDefinition = {
 				'Jason & the Scorchers',
 				'Lucinda Williams',
 				'Jason Isbell'
+			],
+			sources: [
+				'https://www.allmusic.com/style/alternative-country-rock-ma0000012294',
+				'https://en.wikipedia.org/wiki/Alternative_country'
 			]
 		},
 		{
@@ -151,7 +179,8 @@ export const rootsRock: SceneDefinition = {
 				'moe.',
 				'The String Cheese Incident',
 				"Umphrey's McGee"
-			]
+			],
+			sources: ['https://www.allmusic.com/style/jam-bands-ma0000004456', 'https://en.wikipedia.org/wiki/Jam_band']
 		},
 		{
 			name: 'Pub Rock',
@@ -168,7 +197,12 @@ export const rootsRock: SceneDefinition = {
 				'The 101ers',
 				'Graham Parker & the Rumour',
 				'Bees Make Honey',
+				'Ace',
 				'Chilli Willi and the Red Hot Peppers'
+			],
+			sources: [
+				'https://www.allmusic.com/style/pub-rock-ma0000002802',
+				'https://en.wikipedia.org/wiki/Pub_rock_(United_Kingdom)'
 			]
 		}
 	]

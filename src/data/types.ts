@@ -23,6 +23,8 @@ export interface GenreEntry {
 	font: FontStyle;
 	description: string;
 	bands: string[];
+	// Reference pages the band list was checked against, such as the AllMusic style page and the Wikipedia article.
+	sources: string[];
 }
 
 export interface Scene {

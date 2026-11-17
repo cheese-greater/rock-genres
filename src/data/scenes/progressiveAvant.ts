@@ -22,25 +22,10 @@ export const progressiveAvant: SceneDefinition = {
 				'Between the Buried and Me',
 				'Haken',
 				'Leprous'
-			]
-		},
-		{
-			name: 'Progressive Death Metal',
-			year: 1991,
-			heaviness: 84,
-			font: 'pirate',
-			description: 'Death metal stretched into long, dynamic compositions with clean interludes.',
-			bands: [
-				'Death',
-				'Pestilence',
-				'Edge of Sanity',
-				'Opeth',
-				'Disillusion',
-				'Persefone',
-				'Ne Obliviscaris',
-				'Fallujah',
-				'Rivers of Nihil',
-				'Allegaeon'
+			],
+			sources: [
+				'https://www.allmusic.com/style/progressive-metal-ma0000002797',
+				'https://en.wikipedia.org/wiki/Progressive_metal'
 			]
 		},
 		{
@@ -59,12 +44,13 @@ export const progressiveAvant: SceneDefinition = {
 				'Monuments',
 				'After the Burial',
 				'Born of Osiris',
-				'Northlane'
-			]
+				'Volumes'
+			],
+			sources: ['https://www.allmusic.com/artist/periphery-mn0002681783', 'https://en.wikipedia.org/wiki/Djent']
 		},
 		{
 			name: 'Avant-Garde Metal',
-			year: 1990,
+			year: 1987,
 			heaviness: 80,
 			font: 'typewriter',
 			description: 'Metal that breaks its own rules: theatrical, eclectic and deliberately strange.',
@@ -76,9 +62,13 @@ export const progressiveAvant: SceneDefinition = {
 				'Solefald',
 				'Maudlin of the Well',
 				'Fantômas',
-				'Unexpect',
+				'Blut Aus Nord',
 				'Diablo Swing Orchestra',
 				'Igorrr'
+			],
+			sources: [
+				'https://www.allmusic.com/style/avant-garde-metal-ma0000013583',
+				'https://en.wikipedia.org/wiki/Avant-garde_metal'
 			]
 		}
 	]

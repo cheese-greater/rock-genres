@@ -7,7 +7,7 @@ export const alternativeIndie: SceneDefinition = {
 	genres: [
 		{
 			name: 'Alternative Rock',
-			year: 1984,
+			year: 1981,
 			heaviness: 31,
 			font: 'condensed',
 			description:
@@ -23,6 +23,10 @@ export const alternativeIndie: SceneDefinition = {
 				'The Cranberries',
 				'Garbage',
 				'Muse'
+			],
+			sources: [
+				'https://www.allmusic.com/style/alternative-pop-rock-ma0000002422',
+				'https://en.wikipedia.org/wiki/Alternative_rock'
 			]
 		},
 		{
@@ -42,6 +46,10 @@ export const alternativeIndie: SceneDefinition = {
 				"The dB's",
 				"The La's",
 				'The Bangles'
+			],
+			sources: [
+				'https://www.allmusic.com/style/jangle-pop-ma0000012349',
+				'https://en.wikipedia.org/wiki/Jangle_pop'
 			]
 		},
 		{
@@ -61,6 +69,10 @@ export const alternativeIndie: SceneDefinition = {
 				'Death Cab for Cutie',
 				'The Shins',
 				'Arcade Fire'
+			],
+			sources: [
+				'https://www.allmusic.com/style/indie-rock-ma0000004453',
+				'https://en.wikipedia.org/wiki/Indie_rock'
 			]
 		},
 		{
@@ -76,10 +88,12 @@ export const alternativeIndie: SceneDefinition = {
 				'Sebadoh',
 				'Guided by Voices',
 				'Pavement',
+				'Liz Phair',
 				'The Mountain Goats',
 				'Neutral Milk Hotel',
 				'Car Seat Headrest'
-			]
+			],
+			sources: ['https://www.allmusic.com/style/lo-fi-ma0000002701', 'https://en.wikipedia.org/wiki/Lo-fi_music']
 		},
 		{
 			name: 'Slowcore',
@@ -95,9 +109,11 @@ export const alternativeIndie: SceneDefinition = {
 				'American Music Club',
 				'Bedhead',
 				'Idaho',
+				'Spain',
 				'Duster',
 				"Carissa's Wierd"
-			]
+			],
+			sources: ['https://www.allmusic.com/style/slowcore-ma0000012160', 'https://en.wikipedia.org/wiki/Slowcore']
 		},
 		{
 			name: 'Noise Rock',
@@ -116,6 +132,10 @@ export const alternativeIndie: SceneDefinition = {
 				'Unsane',
 				'Lightning Bolt',
 				'Daughters'
+			],
+			sources: [
+				'https://www.allmusic.com/style/noise-rock-ma0000004455',
+				'https://en.wikipedia.org/wiki/Noise_rock'
 			]
 		},
 		{
@@ -127,14 +147,18 @@ export const alternativeIndie: SceneDefinition = {
 			bands: [
 				'Cocteau Twins',
 				'This Mortal Coil',
+				'A.R. Kane',
 				'Julee Cruise',
 				'Galaxie 500',
 				'Mazzy Star',
 				'The Sundays',
-				'Lush',
 				'Beach House',
 				'Wild Nothing',
 				'Cigarettes After Sex'
+			],
+			sources: [
+				'https://www.allmusic.com/style/dream-pop-ma0000012303',
+				'https://en.wikipedia.org/wiki/Dream_pop'
 			]
 		},
 		{
@@ -155,7 +179,8 @@ export const alternativeIndie: SceneDefinition = {
 				'Catherine Wheel',
 				'Medicine',
 				'Nothing'
-			]
+			],
+			sources: ['https://www.allmusic.com/style/shoegaze-ma0000004454', 'https://en.wikipedia.org/wiki/Shoegaze']
 		},
 		{
 			name: 'Grunge',
@@ -174,7 +199,8 @@ export const alternativeIndie: SceneDefinition = {
 				'Green River',
 				'Mother Love Bone',
 				'Temple of the Dog'
-			]
+			],
+			sources: ['https://www.allmusic.com/style/grunge-ma0000002626', 'https://en.wikipedia.org/wiki/Grunge']
 		},
 		{
 			name: 'Madchester',
@@ -188,11 +214,15 @@ export const alternativeIndie: SceneDefinition = {
 				'Inspiral Carpets',
 				'The Charlatans',
 				'James',
+				'808 State',
 				'Northside',
 				'The Farm',
 				'Paris Angels',
-				'The High',
 				'Primal Scream'
+			],
+			sources: [
+				'https://www.allmusic.com/style/madchester-ma0000005017',
+				'https://en.wikipedia.org/wiki/Madchester'
 			]
 		},
 		{
@@ -212,7 +242,8 @@ export const alternativeIndie: SceneDefinition = {
 				'Ocean Colour Scene',
 				'Cast',
 				'Sleeper'
-			]
+			],
+			sources: ['https://www.allmusic.com/style/britpop-ma0000002480', 'https://en.wikipedia.org/wiki/Britpop']
 		},
 		{
 			name: 'Post-Britpop',
@@ -231,7 +262,8 @@ export const alternativeIndie: SceneDefinition = {
 				'Snow Patrol',
 				'Keane',
 				'Athlete'
-			]
+			],
+			sources: ['https://en.wikipedia.org/wiki/Post-Britpop']
 		},
 		{
 			name: 'Post-Punk Revival',
@@ -250,6 +282,10 @@ export const alternativeIndie: SceneDefinition = {
 				'Editors',
 				'Arctic Monkeys',
 				'Hot Hot Heat'
+			],
+			sources: [
+				'https://www.allmusic.com/style/new-wave-post-punk-revival-ma0000012020',
+				'https://en.wikipedia.org/wiki/Post-punk_revival'
 			]
 		},
 		{
@@ -260,15 +296,43 @@ export const alternativeIndie: SceneDefinition = {
 			description: 'Back-to-basics, blown-out garage rock for a new millennium.',
 			bands: [
 				'The White Stripes',
+				'The Strokes',
 				'The Hives',
 				'The Vines',
 				'The Libertines',
 				'The Black Keys',
 				'Jet',
-				'The Datsuns',
 				'The Von Bondies',
 				'Ty Segall',
 				'Thee Oh Sees'
+			],
+			sources: [
+				'https://www.allmusic.com/style/garage-rock-revival-ma0000012343',
+				'https://en.wikipedia.org/wiki/Garage_rock#2000s_garage_rock_revival'
+			]
+		},
+		{
+			name: 'Indie Pop',
+			year: 1979,
+			heaviness: 9,
+			font: 'marker',
+			description:
+				'Sweet, jangly, homemade guitar pop from the DIY fanzine underground, from C86 and twee to chamber-pop flourishes.',
+			bands: [
+				'Television Personalities',
+				'The Pastels',
+				'Talulah Gosh',
+				'The Vaselines',
+				'Beat Happening',
+				'The Field Mice',
+				'Heavenly',
+				'Belle and Sebastian',
+				'The Magnetic Fields',
+				'The Pains of Being Pure at Heart'
+			],
+			sources: [
+				'https://www.allmusic.com/style/indie-pop-ma0000004494',
+				'https://en.wikipedia.org/wiki/Indie_pop'
 			]
 		}
 	]

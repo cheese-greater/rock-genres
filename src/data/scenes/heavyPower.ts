@@ -18,10 +18,14 @@ export const heavyPower: SceneDefinition = {
 				'Budgie',
 				'Sir Lord Baltimore',
 				'Bang',
-				'Dust',
+				'Vanilla Fudge',
 				"Lucifer's Friend",
 				'High Tide',
-				'Atomic Rooster'
+				'Mountain'
+			],
+			sources: [
+				'https://www.allmusic.com/artist/blue-cheer-mn0000059537',
+				'https://en.wikipedia.org/wiki/Heavy_metal_music#Origins:_late_1960s_and_early_1970s'
 			]
 		},
 		{
@@ -41,6 +45,10 @@ export const heavyPower: SceneDefinition = {
 				'Accept',
 				'Manowar',
 				'Mercyful Fate'
+			],
+			sources: [
+				'https://www.allmusic.com/style/heavy-metal-ma0000002721',
+				'https://en.wikipedia.org/wiki/Heavy_metal_music'
 			]
 		},
 		{
@@ -60,6 +68,10 @@ export const heavyPower: SceneDefinition = {
 				'Girlschool',
 				'Samson',
 				'Satan'
+			],
+			sources: [
+				'https://www.allmusic.com/style/new-wave-of-british-heavy-metal-ma0000004491',
+				'https://en.wikipedia.org/wiki/New_wave_of_British_heavy_metal'
 			]
 		},
 		{
@@ -79,6 +91,10 @@ export const heavyPower: SceneDefinition = {
 				'Living Death',
 				'Running Wild',
 				'Enforcer'
+			],
+			sources: [
+				'https://www.allmusic.com/style/speed-thrash-metal-ma0000002874',
+				'https://en.wikipedia.org/wiki/Speed_metal'
 			]
 		},
 		{
@@ -98,6 +114,10 @@ export const heavyPower: SceneDefinition = {
 				'Skid Row',
 				'Cinderella',
 				'Warrant'
+			],
+			sources: [
+				'https://www.allmusic.com/style/hair-metal-ma0000011902',
+				'https://en.wikipedia.org/wiki/Glam_metal'
 			]
 		},
 		{
@@ -118,6 +138,10 @@ export const heavyPower: SceneDefinition = {
 				'Vicious Rumors',
 				'Metal Church',
 				'Iced Earth'
+			],
+			sources: [
+				'https://www.allmusic.com/style/power-metal-ma0000011913',
+				'https://en.wikipedia.org/wiki/Power_metal#American_style'
 			]
 		},
 		{
@@ -137,6 +161,10 @@ export const heavyPower: SceneDefinition = {
 				'Edguy',
 				'Sabaton',
 				'DragonForce'
+			],
+			sources: [
+				'https://www.allmusic.com/style/power-metal-ma0000011913',
+				'https://en.wikipedia.org/wiki/Power_metal'
 			]
 		},
 		{
@@ -156,6 +184,10 @@ export const heavyPower: SceneDefinition = {
 				'Artension',
 				'Symphony X',
 				'Stratovarius'
+			],
+			sources: [
+				'https://www.allmusic.com/style/neo-classical-metal-ma0000011866',
+				'https://en.wikipedia.org/wiki/Neoclassical_metal'
 			]
 		},
 		{
@@ -168,13 +200,17 @@ export const heavyPower: SceneDefinition = {
 				'Enforcer',
 				'Cauldron',
 				'Holy Grail',
-				'Christian Mistress',
+				'White Wizzard',
 				'Skull Fist',
 				'Night Demon',
 				'Haunt',
-				'Ambush',
-				'Screamer',
-				'Riot City'
+				'Eternal Champion',
+				'Wytch Hazel',
+				'Striker'
+			],
+			sources: [
+				'https://www.allmusic.com/artist/mn0001556316',
+				'https://en.wikipedia.org/wiki/New_wave_of_traditional_heavy_metal'
 			]
 		}
 	]

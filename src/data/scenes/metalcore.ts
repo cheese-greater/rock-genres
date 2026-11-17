@@ -7,14 +7,14 @@ export const metalcore: SceneDefinition = {
 	genres: [
 		{
 			name: 'Metalcore',
-			year: 1995,
+			year: 1990,
 			heaviness: 76,
 			font: 'metal',
 			description: 'Metal riffs, hardcore breakdowns and screamed-to-clean vocals.',
 			bands: [
 				'Converge',
 				'Killswitch Engage',
-				'Shadows Fall',
+				'Integrity',
 				'Trivium',
 				'Underoath',
 				'Bullet for My Valentine',
@@ -22,11 +22,15 @@ export const metalcore: SceneDefinition = {
 				'Parkway Drive',
 				'Bring Me the Horizon',
 				'Architects'
+			],
+			sources: [
+				'https://www.allmusic.com/style/metalcore-ma0000013405',
+				'https://en.wikipedia.org/wiki/Metalcore'
 			]
 		},
 		{
 			name: 'Melodic Metalcore',
-			year: 2002,
+			year: 1997,
 			heaviness: 71,
 			font: 'metal',
 			description: 'Gothenburg-style harmonized leads and soaring clean choruses over breakdowns.',
@@ -39,8 +43,12 @@ export const metalcore: SceneDefinition = {
 				'All That Remains',
 				'Atreyu',
 				'Avenged Sevenfold',
-				'Miss May I',
-				'Wage War'
+				'As I Lay Dying',
+				'Shadows Fall'
+			],
+			sources: [
+				'https://www.allmusic.com/style/metalcore-ma0000013405',
+				'https://en.wikipedia.org/wiki/Melodic_metalcore'
 			]
 		},
 		{
@@ -60,11 +68,35 @@ export const metalcore: SceneDefinition = {
 				'Psyopus',
 				'Car Bomb',
 				'Frontierer'
+			],
+			sources: ['https://www.allmusic.com/style/math-rock-ma0000012250', 'https://en.wikipedia.org/wiki/Mathcore']
+		},
+		{
+			name: 'Progressive Metalcore',
+			year: 2004,
+			heaviness: 75,
+			font: 'condensed',
+			description: 'Metalcore with djent rhythms, ambient textures and progressive song structures.',
+			bands: [
+				'After the Burial',
+				'Veil of Maya',
+				'Erra',
+				'Northlane',
+				'Architects',
+				'Invent Animate',
+				'Polaris',
+				'Currents',
+				'Silent Planet',
+				'Make Them Suffer'
+			],
+			sources: [
+				'https://www.allmusic.com/artist/mn0003174419',
+				'https://en.wikipedia.org/wiki/Progressive_metalcore'
 			]
 		},
 		{
 			name: 'Electronicore',
-			year: 2007,
+			year: 2003,
 			heaviness: 64,
 			font: 'neon',
 			description: 'Metalcore laced with trance synths, EDM drops and Auto-Tuned choruses.',
@@ -76,8 +108,13 @@ export const metalcore: SceneDefinition = {
 				'Asking Alexandria',
 				'Abandon All Ships',
 				'Crossfaith',
-				'Issues',
-				'Palisades'
+				'Electric Callboy',
+				'Palisades',
+				'Crown the Empire'
+			],
+			sources: [
+				'https://www.allmusic.com/style/electronicore-ma0000013527',
+				'https://en.wikipedia.org/wiki/Electronicore'
 			]
 		},
 		{
@@ -97,6 +134,10 @@ export const metalcore: SceneDefinition = {
 				'Fit for an Autopsy',
 				'Shadow of Intent',
 				'Lorna Shore'
+			],
+			sources: [
+				'https://www.allmusic.com/style/deathcore-ma0000013528',
+				'https://en.wikipedia.org/wiki/Deathcore'
 			]
 		}
 	]

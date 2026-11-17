@@ -1,7 +1,16 @@
 import { describe, expect, it } from 'vitest';
 
 import type { Genre } from '../data/types';
-import { eraLabel, genreMatchesQuery, rankByPicks, rankScenesByPicks, sortGenres, tileTint } from './genres';
+import {
+	eraLabel,
+	genreMatchesQuery,
+	lastFmArtistUrl,
+	rankByPicks,
+	rankScenesByPicks,
+	sortGenres,
+	sourceLabel,
+	tileTint
+} from './genres';
 import { normalizeText } from './text';
 
 const testScene = { id: 'test', kind: 'Metal', name: 'Test Scene' } as const;
@@ -15,6 +24,7 @@ function makeGenre(name: string, overrides: Partial<Genre> = {}): Genre {
 		id: name.toLowerCase(),
 		name,
 		scene: testScene,
+		sources: ['https://en.wikipedia.org/wiki/Test_genre'],
 		year: 1980,
 		...overrides
 	};
@@ -46,6 +56,27 @@ describe('genreMatchesQuery', () => {
 		expect(genreMatchesQuery(genre, 'test scene')).toBe(true);
 		expect(genreMatchesQuery(genre, 'vitus')).toBe(true);
 		expect(genreMatchesQuery(genre, 'slayer')).toBe(false);
+	});
+});
+
+describe('lastFmArtistUrl', () => {
+	it('uses + for spaces and percent-encodes slashes, plus signs and accents', () => {
+		expect(lastFmArtistUrl('Black Sabbath')).toBe('https://www.last.fm/music/Black+Sabbath');
+		expect(lastFmArtistUrl('AC/DC')).toBe('https://www.last.fm/music/AC%2FDC');
+		expect(lastFmArtistUrl('Ost+Front')).toBe('https://www.last.fm/music/Ost%2BFront');
+		expect(lastFmArtistUrl('Motörhead')).toBe('https://www.last.fm/music/Mot%C3%B6rhead');
+	});
+
+	it('leaves out the site-only disambiguator after a band name', () => {
+		expect(lastFmArtistUrl('Embrace (DC)')).toBe('https://www.last.fm/music/Embrace');
+	});
+});
+
+describe('sourceLabel', () => {
+	it('names known publishers and falls back to the host name', () => {
+		expect(sourceLabel('https://www.allmusic.com/style/acid-rock-ma0000012327')).toBe('AllMusic');
+		expect(sourceLabel('https://en.wikipedia.org/wiki/Acid_rock')).toBe('Wikipedia');
+		expect(sourceLabel('https://daily.bandcamp.com/lists/x')).toBe('daily.bandcamp.com');
 	});
 });
 

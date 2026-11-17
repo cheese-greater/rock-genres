@@ -22,6 +22,10 @@ export const hardRock: SceneDefinition = {
 				'Van Halen',
 				'Whitesnake',
 				"Guns N' Roses"
+			],
+			sources: [
+				'https://www.allmusic.com/style/hard-rock-ma0000002636',
+				'https://en.wikipedia.org/wiki/Hard_rock'
 			]
 		},
 		{
@@ -38,12 +42,17 @@ export const hardRock: SceneDefinition = {
 				'Savoy Brown',
 				'Humble Pie',
 				'Black Oak Arkansas',
+				'Bachman-Turner Overdrive',
 				'George Thorogood and the Destroyers'
+			],
+			sources: [
+				'https://www.allmusic.com/style/boogie-rock-ma0000011815',
+				'https://en.wikipedia.org/wiki/Boogie_rock'
 			]
 		},
 		{
-			name: 'Oz Rock',
-			year: 1974,
+			name: 'Aussie Pub Rock',
+			year: 1971,
 			heaviness: 46,
 			font: 'rocker',
 			description: "Australia's loud, beer-soaked pub rock circuit and the hard rock it bred.",
@@ -54,33 +63,19 @@ export const hardRock: SceneDefinition = {
 				'Cold Chisel',
 				'The Angels',
 				'Midnight Oil',
+				'INXS',
+				'Hunters & Collectors',
 				'Jimmy Barnes',
-				'The Screaming Jets',
 				'Airbourne'
-			]
-		},
-		{
-			name: 'Heavy Psych',
-			year: 1968,
-			heaviness: 50,
-			font: 'groovy',
-			description: 'Fuzz-saturated, jam-heavy rock where psychedelia and proto-metal meet.',
-			bands: [
-				'Blue Cheer',
-				'Vanilla Fudge',
-				'Captain Beyond',
-				'Pink Fairies',
-				'Earthless',
-				'Graveyard',
-				'Kadavar',
-				'Radio Moscow',
-				'Elder',
-				'All Them Witches'
+			],
+			sources: [
+				'https://www.allmusic.com/style/aussie-rock-ma0000012330',
+				'https://en.wikipedia.org/wiki/Pub_rock_(Australia)'
 			]
 		},
 		{
 			name: 'Sleaze Rock',
-			year: 1980,
+			year: 1987,
 			heaviness: 49,
 			font: 'marker',
 			description: 'Street-level, glammed-up hard rock about excess and trouble.',
@@ -94,6 +89,10 @@ export const hardRock: SceneDefinition = {
 				'Hardcore Superstar',
 				'Crashdïet',
 				'Buckcherry'
+			],
+			sources: [
+				'https://www.allmusic.com/style/hair-metal-ma0000011902',
+				'https://en.wikipedia.org/wiki/Glam_metal#Second_wave_(1986%E2%80%931991)'
 			]
 		},
 		{
@@ -102,18 +101,22 @@ export const hardRock: SceneDefinition = {
 			heaviness: 54,
 			font: 'pirate',
 			description:
-				'Groovy, fuzzed-out riffs born at Palm Desert generator parties, with a heavy debt to the 70s.',
+				'Groovy, fuzzed-out, bass-heavy riffs from early-90s California, with a heavy debt to the 70s.',
 			bands: [
 				'Kyuss',
 				'Queens of the Stone Age',
 				'Fu Manchu',
 				'Monster Magnet',
 				'Clutch',
-				'Nebula',
+				'Kadavar',
 				'Orange Goblin',
 				'Masters of Reality',
 				'Wolfmother',
 				'Red Fang'
+			],
+			sources: [
+				'https://www.allmusic.com/style/stoner-metal-ma0000011961',
+				'https://en.wikipedia.org/wiki/Stoner_rock'
 			]
 		}
 	]

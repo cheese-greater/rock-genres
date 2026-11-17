@@ -22,6 +22,10 @@ export const deathGrind: SceneDefinition = {
 				'Bolt Thrower',
 				'Suffocation',
 				'Nile'
+			],
+			sources: [
+				'https://www.allmusic.com/style/death-metal-ma0000002547',
+				'https://en.wikipedia.org/wiki/Death_metal'
 			]
 		},
 		{
@@ -32,6 +36,7 @@ export const deathGrind: SceneDefinition = {
 			description: "Stockholm's buzzsaw HM-2 guitar tone, punky d-beat drive and later death 'n' roll swagger.",
 			bands: [
 				'Nihilist',
+				'Morbid',
 				'Entombed',
 				'Dismember',
 				'Grave',
@@ -39,8 +44,11 @@ export const deathGrind: SceneDefinition = {
 				'Carnage',
 				'Edge of Sanity',
 				'God Macabre',
-				'Entrails',
 				'Bloodbath'
+			],
+			sources: [
+				'https://www.allmusic.com/style/scandinavian-metal-ma0000012324',
+				'https://en.wikipedia.org/wiki/Swedish_death_metal'
 			]
 		},
 		{
@@ -50,6 +58,7 @@ export const deathGrind: SceneDefinition = {
 			font: 'pirate',
 			description: 'The Gothenburg sound: death metal with harmonized melodic leads.',
 			bands: [
+				'Carcass',
 				'At the Gates',
 				'In Flames',
 				'Dark Tranquillity',
@@ -57,9 +66,12 @@ export const deathGrind: SceneDefinition = {
 				'Soilwork',
 				'Children of Bodom',
 				'Insomnium',
-				'Omnium Gatherum',
 				'Scar Symmetry',
 				'Kalmah'
+			],
+			sources: [
+				'https://www.allmusic.com/album/slaughter-of-the-soul-mw0000646486',
+				'https://en.wikipedia.org/wiki/Melodic_death_metal'
 			]
 		},
 		{
@@ -71,14 +83,18 @@ export const deathGrind: SceneDefinition = {
 			bands: [
 				'Atheist',
 				'Cynic',
+				'Pestilence',
 				'Gorguts',
 				'Cryptopsy',
 				'Necrophagist',
-				'Spawn of Possession',
 				'Origin',
 				'Obscura',
-				'Beyond Creation',
+				'Ulcerate',
 				'Archspire'
+			],
+			sources: [
+				'https://www.allmusic.com/style/technical-death-metal-ma0000013580',
+				'https://en.wikipedia.org/wiki/Technical_death_metal'
 			]
 		},
 		{
@@ -89,7 +105,7 @@ export const deathGrind: SceneDefinition = {
 			description: 'Maximum heaviness: guttural vocals, relentless blasts, gore and crushing slam breakdowns.',
 			bands: [
 				'Suffocation',
-				'Cannibal Corpse',
+				'Mortician',
 				'Deeds of Flesh',
 				'Disgorge',
 				'Internal Bleeding',
@@ -98,6 +114,30 @@ export const deathGrind: SceneDefinition = {
 				'Devourment',
 				'Defeated Sanity',
 				'Pyrexia'
+			],
+			sources: ['https://en.wikipedia.org/wiki/Brutal_death_metal']
+		},
+		{
+			name: "Death 'n' Roll",
+			year: 1993,
+			heaviness: 80,
+			font: 'rocker',
+			description: "Death metal growls over swaggering rock 'n' roll riffs.",
+			bands: [
+				'Entombed',
+				'Xysma',
+				'Gorefest',
+				'Carcass',
+				'Pungent Stench',
+				'Convulse',
+				'Six Feet Under',
+				'Debauchery',
+				'Phazm',
+				'Entombed A.D.'
+			],
+			sources: [
+				'https://www.allmusic.com/artist/entombed-mn0000741177',
+				'https://en.wikipedia.org/wiki/Death_%27n%27_roll'
 			]
 		},
 		{
@@ -115,33 +155,17 @@ export const deathGrind: SceneDefinition = {
 				'Belphegor',
 				'Zyklon',
 				'Akercocke',
-				'Hate'
-			]
-		},
-		{
-			name: 'Dissonant Death Metal',
-			year: 1998,
-			heaviness: 91,
-			font: 'typewriter',
-			description: "Atonal chord clusters and cavernous atmospheres from death metal's avant-garde.",
-			bands: [
-				'Gorguts',
-				'Portal',
-				'Ulcerate',
-				'Pyrrhon',
-				'Ad Nauseam',
-				'Artificial Brain',
-				'Gigan',
-				'Baring Teeth',
+				'Hate',
 				'Imperial Triumphant'
-			]
+			],
+			sources: ['https://en.wikipedia.org/wiki/Blackened_death_metal']
 		},
 		{
 			name: 'Grindcore',
 			year: 1985,
 			heaviness: 97,
 			font: 'pirate',
-			description: 'Extremely short, fast songs fusing death metal and hardcore punk.',
+			description: 'Extremely short, fast songs fusing heavy metal and hardcore punk.',
 			bands: [
 				'Repulsion',
 				'Napalm Death',
@@ -153,6 +177,10 @@ export const deathGrind: SceneDefinition = {
 				'Discordance Axis',
 				'Pig Destroyer',
 				'Agoraphobic Nosebleed'
+			],
+			sources: [
+				'https://www.allmusic.com/style/grindcore-ma0000004452',
+				'https://en.wikipedia.org/wiki/Grindcore'
 			]
 		},
 		{
@@ -162,6 +190,7 @@ export const deathGrind: SceneDefinition = {
 			font: 'pirate',
 			description: 'Grindcore obsessed with medical gore, pitch-shifted gurgles and morbid humor.',
 			bands: [
+				'Repulsion',
 				'Carcass',
 				'Impetigo',
 				'General Surgery',
@@ -169,10 +198,10 @@ export const deathGrind: SceneDefinition = {
 				'Dead Infection',
 				'Haemorrhage',
 				'Last Days of Humanity',
-				'Gut',
 				'Exhumed',
-				'County Medical Examiners'
-			]
+				'The County Medical Examiners'
+			],
+			sources: ['https://en.wikipedia.org/wiki/Goregrind']
 		}
 	]
 };

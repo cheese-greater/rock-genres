@@ -22,6 +22,10 @@ export const alternativeNu: SceneDefinition = {
 				'System of a Down',
 				'Chevelle',
 				'Breaking Benjamin'
+			],
+			sources: [
+				'https://www.allmusic.com/style/alternative-metal-ma0000012328',
+				'https://en.wikipedia.org/wiki/Alternative_metal'
 			]
 		},
 		{
@@ -31,6 +35,7 @@ export const alternativeNu: SceneDefinition = {
 			font: 'groovy',
 			description: 'Slap bass and funky grooves driving heavy metal guitars.',
 			bands: [
+				'Red Hot Chili Peppers',
 				'Living Colour',
 				'Fishbone',
 				'Faith No More',
@@ -40,11 +45,15 @@ export const alternativeNu: SceneDefinition = {
 				'24-7 Spyz',
 				'Electric Boys',
 				'Extreme'
+			],
+			sources: [
+				'https://www.allmusic.com/style/funk-metal-ma0000012114',
+				'https://en.wikipedia.org/wiki/Funk_metal'
 			]
 		},
 		{
 			name: 'Rap Metal',
-			year: 1990,
+			year: 1987,
 			heaviness: 63,
 			font: 'condensed',
 			description: 'Rapped vocals and hip-hop rhythms over heavy metal riffing.',
@@ -59,11 +68,15 @@ export const alternativeNu: SceneDefinition = {
 				'Senser',
 				'Hed PE',
 				'Prophets of Rage'
+			],
+			sources: [
+				'https://www.allmusic.com/style/rap-metal-ma0000002817',
+				'https://en.wikipedia.org/wiki/Rap_metal'
 			]
 		},
 		{
 			name: 'Nu Metal',
-			year: 1995,
+			year: 1994,
 			heaviness: 66,
 			font: 'condensed',
 			description: 'Downtuned grooves mixed with hip-hop, rapping and electronics.',
@@ -78,11 +91,15 @@ export const alternativeNu: SceneDefinition = {
 				'Papa Roach',
 				'Staind',
 				'P.O.D.'
+			],
+			sources: [
+				'https://www.allmusic.com/style/n%C3%BC-metal-ma0000004547',
+				'https://en.wikipedia.org/wiki/Nu_metal'
 			]
 		},
 		{
 			name: 'Industrial Metal',
-			year: 1985,
+			year: 1988,
 			heaviness: 70,
 			font: 'space',
 			description: 'Electronics, samples and mechanical rhythms fused with metal.',
@@ -97,6 +114,10 @@ export const alternativeNu: SceneDefinition = {
 				'Static-X',
 				'Rob Zombie',
 				'Strapping Young Lad'
+			],
+			sources: [
+				'https://www.allmusic.com/style/industrial-metal-ma0000012276',
+				'https://en.wikipedia.org/wiki/Industrial_metal'
 			]
 		},
 		{
@@ -113,17 +134,23 @@ export const alternativeNu: SceneDefinition = {
 				'Stahlmann',
 				'Ost+Front',
 				'Heldmaschine',
-				'Emigrate',
-				'Lindemann'
+				'Joachim Witt',
+				'Lindemann',
+				'Hämatom'
+			],
+			sources: [
+				'https://www.allmusic.com/artist/megaherz-mn0000405300',
+				'https://en.wikipedia.org/wiki/Neue_Deutsche_H%C3%A4rte'
 			]
 		},
 		{
 			name: 'Christian Metal',
-			year: 1984,
+			year: 1978,
 			heaviness: 62,
 			font: 'rocker',
 			description: 'Metal of every style carrying Christian lyrics, from glam to metalcore.',
 			bands: [
+				'Resurrection Band',
 				'Stryper',
 				'Bloodgood',
 				'Barren Cross',
@@ -133,6 +160,10 @@ export const alternativeNu: SceneDefinition = {
 				'Living Sacrifice',
 				'Demon Hunter',
 				'Becoming the Archetype'
+			],
+			sources: [
+				'https://www.allmusic.com/style/christian-metal-ma0000002975',
+				'https://en.wikipedia.org/wiki/Christian_metal'
 			]
 		},
 		{
@@ -141,7 +172,11 @@ export const alternativeNu: SceneDefinition = {
 			heaviness: 60,
 			font: 'neon',
 			description: 'J-pop idol vocals and choreography over full-throttle metal.',
-			bands: ['Babymetal', 'Ladybaby', 'Necronomidol', 'Passcode', 'Hanabie.']
+			bands: ['Babymetal', 'Ladybaby', 'Necronomidol', 'Passcode', 'Hanabie.', 'Ladybeard'],
+			sources: [
+				'https://www.allmusic.com/artist/babymetal-mn0003176966',
+				'https://en.wikipedia.org/wiki/Kawaii_metal'
+			]
 		}
 	]
 };

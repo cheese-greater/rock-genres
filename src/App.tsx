@@ -134,8 +134,11 @@ export default function App() {
 				)}
 				<footer>
 					<span>
-						Softest-to-hardest order, origin dates and genre lines are approximate: many bands span several
-						styles.
+						Genres and band lists were drafted by Claude, an AI, then checked against{' '}
+						<a href='https://www.allmusic.com/'>AllMusic</a> and Wikipedia, with{' '}
+						<a href='https://www.last.fm/'>Last.fm</a> listener tags as a tiebreaker. Each genre links to
+						the pages its list was checked against. Softest-to-hardest order, origin dates and genre lines
+						are approximate: many bands span several styles. Listen links open each band's page on Last.fm.
 					</span>
 					<span>
 						Your picks are saved in this browser.{' '}

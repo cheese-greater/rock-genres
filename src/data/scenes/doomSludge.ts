@@ -7,7 +7,7 @@ export const doomSludge: SceneDefinition = {
 	genres: [
 		{
 			name: 'Doom Metal',
-			year: 1978,
+			year: 1984,
 			heaviness: 70,
 			font: 'blackletter',
 			description:
@@ -17,12 +17,16 @@ export const doomSludge: SceneDefinition = {
 				'Witchfinder General',
 				'Saint Vitus',
 				'Trouble',
+				'The Obsessed',
 				'Candlemass',
 				'Cathedral',
-				'My Dying Bride',
 				'Electric Wizard',
 				'Reverend Bizarre',
 				'Pallbearer'
+			],
+			sources: [
+				'https://www.allmusic.com/style/doom-metal-ma0000004496',
+				'https://en.wikipedia.org/wiki/Doom_metal'
 			]
 		},
 		{
@@ -42,7 +46,8 @@ export const doomSludge: SceneDefinition = {
 				'Novembers Doom',
 				'Hooded Menace',
 				'Swallow the Sun'
-			]
+			],
+			sources: ['https://en.wikipedia.org/wiki/Death-doom']
 		},
 		{
 			name: 'Funeral Doom',
@@ -61,7 +66,8 @@ export const doomSludge: SceneDefinition = {
 				'Worship',
 				'Ahab',
 				'Bell Witch'
-			]
+			],
+			sources: ['https://en.wikipedia.org/wiki/Funeral_doom']
 		},
 		{
 			name: 'Gothic Metal',
@@ -80,6 +86,10 @@ export const doomSludge: SceneDefinition = {
 				'Sentenced',
 				'Tristania',
 				'HIM'
+			],
+			sources: [
+				'https://www.allmusic.com/style/goth-metal-ma0000011855',
+				'https://en.wikipedia.org/wiki/Gothic_metal'
 			]
 		},
 		{
@@ -99,26 +109,31 @@ export const doomSludge: SceneDefinition = {
 				'Conan',
 				'Windhand',
 				'Monolord'
+			],
+			sources: [
+				'https://www.allmusic.com/style/stoner-metal-ma0000011961',
+				'https://en.wikipedia.org/wiki/Doom_metal#Stoner_metal'
 			]
 		},
 		{
 			name: 'Occult Rock',
-			year: 2007,
+			year: 1969,
 			heaviness: 51,
 			font: 'blackletter',
-			description: 'Retro 70s heavy rock with witchy imagery, organs and haunting vocals.',
+			description: 'Heavy rock steeped in the occult, with witchy imagery, organs and haunting vocals.',
 			bands: [
 				'Coven',
+				'Black Widow',
 				'Witchcraft',
 				"The Devil's Blood",
 				'Blood Ceremony',
-				'Jex Thoth',
 				'Ghost',
 				'Uncle Acid & the Deadbeats',
 				'Purson',
 				'Lucifer',
-				'Avatarium'
-			]
+				'Graveyard'
+			],
+			sources: ['https://en.wikipedia.org/wiki/Occult_rock']
 		},
 		{
 			name: 'Sludge Metal',
@@ -131,12 +146,16 @@ export const doomSludge: SceneDefinition = {
 				'Eyehategod',
 				'Crowbar',
 				'Acid Bath',
-				'Grief',
 				'Iron Monkey',
 				'Down',
 				'High on Fire',
 				'Mastodon',
+				'The Body',
 				'Thou'
+			],
+			sources: [
+				'https://www.allmusic.com/style/sludge-metal-ma0000012161',
+				'https://en.wikipedia.org/wiki/Sludge_metal'
 			]
 		},
 		{
@@ -155,7 +174,11 @@ export const doomSludge: SceneDefinition = {
 				'Corrupted',
 				'Bong',
 				'Moss',
-				'The Body'
+				'Locrian'
+			],
+			sources: [
+				'https://www.allmusic.com/style/drone-metal-ma0000013582',
+				'https://en.wikipedia.org/wiki/Drone_metal'
 			]
 		},
 		{
@@ -175,6 +198,10 @@ export const doomSludge: SceneDefinition = {
 				'Russian Circles',
 				'Year of No Light',
 				'Amenra'
+			],
+			sources: [
+				'https://www.allmusic.com/style/post-metal-ma0000013404',
+				'https://en.wikipedia.org/wiki/Post-metal'
 			]
 		}
 	]

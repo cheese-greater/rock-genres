@@ -22,6 +22,10 @@ export const hardcoreEmo: SceneDefinition = {
 				'MDC',
 				'Agnostic Front',
 				'Void'
+			],
+			sources: [
+				'https://www.allmusic.com/style/hardcore-punk-ma0000002641',
+				'https://en.wikipedia.org/wiki/Hardcore_punk'
 			]
 		},
 		{
@@ -42,11 +46,12 @@ export const hardcoreEmo: SceneDefinition = {
 				'Judge',
 				'Madball',
 				'H2O'
-			]
+			],
+			sources: ['https://en.wikipedia.org/wiki/New_York_hardcore']
 		},
 		{
 			name: 'Melodic Hardcore',
-			year: 1985,
+			year: 1982,
 			heaviness: 58,
 			font: 'marker',
 			description: 'Hardcore speed with soaring melodic leads and earnest, shouted vocals.',
@@ -61,7 +66,8 @@ export const hardcoreEmo: SceneDefinition = {
 				'Modern Life Is War',
 				'Have Heart',
 				'Defeater'
-			]
+			],
+			sources: ['https://en.wikipedia.org/wiki/Melodic_hardcore']
 		},
 		{
 			name: 'Crust Punk',
@@ -80,7 +86,8 @@ export const hardcoreEmo: SceneDefinition = {
 				'His Hero Is Gone',
 				'Tragedy',
 				'Wolfbrigade'
-			]
+			],
+			sources: ['https://en.wikipedia.org/wiki/Crust_punk']
 		},
 		{
 			name: 'D-Beat',
@@ -99,7 +106,8 @@ export const hardcoreEmo: SceneDefinition = {
 				'Wolfbrigade',
 				'Driller Killer',
 				'Disfear'
-			]
+			],
+			sources: ['https://en.wikipedia.org/wiki/D-beat']
 		},
 		{
 			name: 'Powerviolence',
@@ -108,8 +116,8 @@ export const hardcoreEmo: SceneDefinition = {
 			font: 'marker',
 			description: 'Hardcore at its most extreme: tiny songs lurching between blast beats and sludge.',
 			bands: [
+				'Siege',
 				'Infest',
-				'Neanderthal',
 				'Crossed Out',
 				'No Comment',
 				'Man Is the Bastard',
@@ -118,7 +126,8 @@ export const hardcoreEmo: SceneDefinition = {
 				'Capitalist Casualties',
 				'Charles Bronson',
 				'Weekend Nachos'
-			]
+			],
+			sources: ['https://en.wikipedia.org/wiki/Powerviolence']
 		},
 		{
 			name: 'Metallic Hardcore',
@@ -137,6 +146,10 @@ export const hardcoreEmo: SceneDefinition = {
 				'Buried Alive',
 				'Terror',
 				'Knocked Loose'
+			],
+			sources: [
+				'https://www.allmusic.com/style/metalcore-ma0000013405',
+				'https://en.wikipedia.org/wiki/Metalcore'
 			]
 		},
 		{
@@ -156,6 +169,10 @@ export const hardcoreEmo: SceneDefinition = {
 				'Thursday',
 				'La Dispute',
 				'Touché Amoré'
+			],
+			sources: [
+				'https://www.allmusic.com/style/post-hardcore-ma0000012125',
+				'https://en.wikipedia.org/wiki/Post-hardcore'
 			]
 		},
 		{
@@ -167,7 +184,7 @@ export const hardcoreEmo: SceneDefinition = {
 				'Emotional hardcore that grew into confessional, twinkling Midwest guitar rock and a 2010s basement revival.',
 			bands: [
 				'Rites of Spring',
-				'Embrace',
+				'Embrace (DC)',
 				'Jawbreaker',
 				'Sunny Day Real Estate',
 				"Cap'n Jazz",
@@ -176,7 +193,8 @@ export const hardcoreEmo: SceneDefinition = {
 				'The Promise Ring',
 				'Modern Baseball',
 				'American Football'
-			]
+			],
+			sources: ['https://www.allmusic.com/style/emo-ma0000004447', 'https://en.wikipedia.org/wiki/Emo']
 		},
 		{
 			name: 'Emo Pop',
@@ -191,11 +209,12 @@ export const hardcoreEmo: SceneDefinition = {
 				'Dashboard Confessional',
 				'Taking Back Sunday',
 				'Brand New',
-				'The Starting Line',
+				'Fall Out Boy',
 				'Motion City Soundtrack',
 				'My Chemical Romance',
 				'Paramore'
-			]
+			],
+			sources: ['https://www.allmusic.com/style/emo-pop-ma0000012243', 'https://en.wikipedia.org/wiki/Emo_pop']
 		},
 		{
 			name: 'Screamo',
@@ -214,7 +233,8 @@ export const hardcoreEmo: SceneDefinition = {
 				'pg.99',
 				'City of Caterpillar',
 				'Envy'
-			]
+			],
+			sources: ['https://www.allmusic.com/style/screamo-ma0000004448', 'https://en.wikipedia.org/wiki/Screamo']
 		}
 	]
 };

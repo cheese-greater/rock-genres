@@ -22,6 +22,10 @@ export const blackMetal: SceneDefinition = {
 				'Tormentor',
 				'Sarcófago',
 				"Master's Hammer"
+			],
+			sources: [
+				'https://www.allmusic.com/style/black-metal-ma0000002463',
+				'https://en.wikipedia.org/wiki/First-wave_black_metal'
 			]
 		},
 		{
@@ -33,14 +37,18 @@ export const blackMetal: SceneDefinition = {
 			bands: [
 				'Mayhem',
 				'Darkthrone',
+				'Burzum',
 				'Emperor',
 				'Immortal',
 				'Gorgoroth',
 				'Satyricon',
 				'Marduk',
 				'Dark Funeral',
-				'Taake',
 				'Watain'
+			],
+			sources: [
+				'https://www.allmusic.com/style/black-metal-ma0000002463',
+				'https://en.wikipedia.org/wiki/Black_metal#Second_wave_(1991%E2%80%931997)'
 			]
 		},
 		{
@@ -58,8 +66,12 @@ export const blackMetal: SceneDefinition = {
 				"Old Man's Child",
 				'Anorexia Nervosa',
 				'Graveworm',
-				'Carach Angren',
-				'Abigail Williams'
+				'Chthonic',
+				'Carach Angren'
+			],
+			sources: [
+				'https://www.allmusic.com/style/symphonic-black-metal-ma0000012290',
+				'https://en.wikipedia.org/wiki/Symphonic_black_metal'
 			]
 		},
 		{
@@ -79,7 +91,8 @@ export const blackMetal: SceneDefinition = {
 				'Thulcandra',
 				'Uada',
 				'Mgła'
-			]
+			],
+			sources: ['https://en.wikipedia.org/wiki/Blackened_death_metal#Melodic_black-death']
 		},
 		{
 			name: 'Atmospheric Black Metal',
@@ -98,7 +111,8 @@ export const blackMetal: SceneDefinition = {
 				'Saor',
 				'Midnight Odyssey',
 				'Mare Cognitum'
-			]
+			],
+			sources: ['https://en.wikipedia.org/wiki/Black_metal#Ambient_black_metal']
 		},
 		{
 			name: 'Raw Black Metal',
@@ -109,15 +123,16 @@ export const blackMetal: SceneDefinition = {
 			bands: [
 				'Darkthrone',
 				'Ildjarn',
+				'Gorgoroth',
 				'Mütiilation',
 				'Vlad Tepes',
-				'Belkètre',
+				'Belketre',
 				'Moonblood',
 				'Judas Iscariot',
 				'Sargeist',
-				'Akitsa',
 				'Black Cilice'
-			]
+			],
+			sources: ['https://en.wikipedia.org/wiki/Black_metal#Raw_black_metal']
 		},
 		{
 			name: 'Depressive Black Metal',
@@ -131,12 +146,13 @@ export const blackMetal: SceneDefinition = {
 				'Xasthur',
 				'Shining',
 				'Silencer',
+				'Forgotten Tomb',
 				'Lifelover',
 				'Nocturnal Depression',
-				'Woods of Desolation',
 				'Austere',
 				'Hypothermia'
-			]
+			],
+			sources: ['https://en.wikipedia.org/wiki/Black_metal#Depressive_suicidal_black_metal']
 		},
 		{
 			name: 'War Metal',
@@ -155,26 +171,8 @@ export const blackMetal: SceneDefinition = {
 				'Black Witchery',
 				'Teitanblood',
 				'Diocletian'
-			]
-		},
-		{
-			name: 'Avant-Garde Black Metal',
-			year: 1995,
-			heaviness: 87,
-			font: 'typewriter',
-			description: 'Black metal deconstructed with dissonance, jazz, electronics and abstract song forms.',
-			bands: [
-				'Ved Buens Ende',
-				'Dødheimsgard',
-				'Virus',
-				'Blut Aus Nord',
-				'Deathspell Omega',
-				'Dodecahedron',
-				'Krallice',
-				'Thy Catafalque',
-				'Ihsahn',
-				'Oranssi Pazuzu'
-			]
+			],
+			sources: ['https://en.wikipedia.org/wiki/Blackened_death_metal#War_metal']
 		},
 		{
 			name: 'Blackgaze',
@@ -190,9 +188,13 @@ export const blackMetal: SceneDefinition = {
 				'Deafheaven',
 				'An Autumn for Crippled Children',
 				'Heretoir',
-				'Harakiri for the Sky',
+				'Oathbreaker',
 				'Sylvaine',
 				'Unreqvited'
+			],
+			sources: [
+				'https://www.allmusic.com/style/blackgaze-ma0000013584',
+				'https://en.wikipedia.org/wiki/Blackgaze'
 			]
 		}
 	]

@@ -86,6 +86,26 @@ export function sortGenres(genres: readonly Genre[], sortMode: SortMode, picks: 
 	return [...genres].sort(compareByHeaviness);
 }
 
+// Last.fm artist paths use + for spaces and percent-encode everything else, including a literal + or /.
+// A trailing disambiguator such as "Embrace (DC)" is the site's own label, so it is left out of the Last.fm name.
+export function lastFmArtistUrl(band: string): string {
+	const artistName = band.replace(/\s*\([^)]*\)$/, '');
+	return `https://www.last.fm/music/${encodeURIComponent(artistName).replaceAll('%20', '+')}`;
+}
+
+const sourceLabels: Record<string, string> = {
+	'de.wikipedia.org': 'Wikipedia (German)',
+	'en.wikipedia.org': 'Wikipedia',
+	'www.allmusic.com': 'AllMusic',
+	'www.last.fm': 'Last.fm'
+};
+
+// Short publisher name for a genre's reference link; unknown sites fall back to their host name.
+export function sourceLabel(url: string): string {
+	const { hostname } = new URL(url);
+	return sourceLabels[hostname] ?? hostname.replace(/^www\./, '');
+}
+
 export function bandMatchesQuery(band: string, normalizedQuery: string): boolean {
 	return normalizedQuery.length > 0 && normalizeText(band).includes(normalizedQuery);
 }

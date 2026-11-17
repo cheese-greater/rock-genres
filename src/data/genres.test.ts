@@ -31,6 +31,8 @@ describe('genre data', () => {
 			expect(band).toBe(band.trim());
 			expect(band).not.toMatch(disallowedCharacters);
 		}
+		expect(genre.sources.length).toBeGreaterThanOrEqual(1);
+		for (const source of genre.sources) expect(source).toMatch(/^https:\/\/[^\s]+$/);
 	});
 
 	// A band listed under several genres must be spelled identically everywhere, or picks would not carry across.

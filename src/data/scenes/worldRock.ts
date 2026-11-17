@@ -11,14 +11,19 @@ export const worldRock: SceneDefinition = {
 			heaviness: 21,
 			font: 'groovy',
 			description: 'Rock fused with Afro-Cuban percussion and Latin American rhythms.',
-			bands: ['Santana', 'Malo', 'El Chicano', 'Azteca', 'Tierra', 'Los Lobos', 'Ozomatli', 'Los Lonely Boys']
+			bands: ['Santana', 'Malo', 'El Chicano', 'War', 'Azteca', 'Tierra', 'Mandrill', 'Los Lobos', 'Ozomatli'],
+			sources: [
+				'https://www.allmusic.com/style/latin-rock-ma0000011908',
+				'https://en.wikipedia.org/wiki/Latin_rock'
+			]
 		},
 		{
 			name: 'Rock en Español',
 			year: 1985,
 			heaviness: 24,
 			font: 'condensed',
-			description: 'Spanish-language rock from Mexico, Argentina, Spain and beyond.',
+			description:
+				'Spanish-language rock from Mexico, Argentina, Spain and beyond, which broke out internationally in the mid-80s.',
 			bands: [
 				'Soda Stereo',
 				'Los Prisioneros',
@@ -30,6 +35,10 @@ export const worldRock: SceneDefinition = {
 				'Maná',
 				'Molotov',
 				'Zoé'
+			],
+			sources: [
+				'https://www.allmusic.com/style/rock-en-espa%C3%B1ol-ma0000002826',
+				'https://en.wikipedia.org/wiki/Rock_en_espa%C3%B1ol'
 			]
 		},
 		{
@@ -43,11 +52,16 @@ export const worldRock: SceneDefinition = {
 				'Barış Manço',
 				'Cem Karaca',
 				'Moğollar',
+				'Mavi Işıklar',
 				'Selda Bağcan',
+				'3 Hürel',
 				'Fikret Kızılok',
 				'Edip Akbayram',
-				'Baba Zula',
 				'Altın Gün'
+			],
+			sources: [
+				'https://www.allmusic.com/artist/erkin-koray-mn0000803481',
+				'https://en.wikipedia.org/wiki/Anatolian_rock'
 			]
 		},
 		{
@@ -61,26 +75,33 @@ export const worldRock: SceneDefinition = {
 				'Amanaz',
 				'Musi-O-Tunya',
 				'Rikki Ililonga',
-				'Ngozi Family',
 				'Paul Ngozi',
 				'Chrissy Zebby Tembo',
 				'The Peace'
+			],
+			sources: [
+				'https://www.allmusic.com/album/welcome-to-zamrock!-vol-1-how-zambias-liberation-led-to-a-rock-revolution-1972-77-mw0003052714',
+				'https://en.wikipedia.org/wiki/Zamrock'
 			]
 		},
 		{
 			name: 'Cambodian Rock',
-			year: 1963,
+			year: 1959,
 			heaviness: 13,
 			font: 'script',
 			description: "Phnom Penh's 60s and 70s blend of Khmer melodies with surf, garage and psych.",
 			bands: [
 				'Sinn Sisamouth',
-				'Ros Sereysothea',
-				'Pan Ron',
+				'Ros Serey Sothea',
+				'Pen Ran',
 				'Yol Aularong',
 				'Baksey Cham Krong',
-				'Drakkar',
+				'The Drakkars',
 				'Dengue Fever'
+			],
+			sources: [
+				'https://www.allmusic.com/album/cambodian-rocks-mw0000010619',
+				'https://en.wikipedia.org/wiki/Cambodian_rock_(1960s%E2%80%931970s)'
 			]
 		},
 		{
@@ -89,7 +110,22 @@ export const worldRock: SceneDefinition = {
 			heaviness: 16,
 			font: 'pirate',
 			description: 'Traditional Irish, Scottish and Breton music electrified with rock instrumentation.',
-			bands: ['Horslips', 'Alan Stivell', 'Runrig', 'Big Country', 'The Waterboys', 'Capercaillie', 'Wolfstone']
+			bands: [
+				'Horslips',
+				'Alan Stivell',
+				'Runrig',
+				'Moving Hearts',
+				'Big Country',
+				'The Waterboys',
+				'Capercaillie',
+				'Black 47',
+				'Wolfstone',
+				'Great Big Sea'
+			],
+			sources: [
+				'https://www.allmusic.com/style/celtic-rock-ma0000005023',
+				'https://en.wikipedia.org/wiki/Celtic_rock'
+			]
 		},
 		{
 			name: 'J-Rock',
@@ -108,11 +144,15 @@ export const worldRock: SceneDefinition = {
 				'Bump of Chicken',
 				'Radwimps',
 				'One Ok Rock'
+			],
+			sources: [
+				'https://www.allmusic.com/style/japanese-rock-ma0000012350',
+				'https://en.wikipedia.org/wiki/Japanese_rock'
 			]
 		},
 		{
 			name: 'Visual Kei',
-			year: 1985,
+			year: 1982,
 			heaviness: 46,
 			font: 'rocker',
 			description: 'Theatrical Japanese rock built on elaborate makeup, costumes and androgyny.',
@@ -127,6 +167,10 @@ export const worldRock: SceneDefinition = {
 				'Moi dix Mois',
 				'The Gazette',
 				'Versailles'
+			],
+			sources: [
+				'https://www.allmusic.com/style/visual-kei-ma0000013525',
+				'https://en.wikipedia.org/wiki/Visual_kei'
 			]
 		},
 		{
@@ -144,7 +188,12 @@ export const worldRock: SceneDefinition = {
 				'Nautilus Pompilius',
 				'Grazhdanskaya Oborona',
 				'Agata Kristi',
+				'Chaif',
 				'Splean'
+			],
+			sources: [
+				'https://www.allmusic.com/artist/mn0000738082',
+				'https://en.wikipedia.org/wiki/Rock_music_in_Russia'
 			]
 		},
 		{
@@ -157,12 +206,17 @@ export const worldRock: SceneDefinition = {
 				'Cui Jian',
 				'Tang Dynasty',
 				'Black Panther',
+				'He Yong',
 				'Second Hand Rose',
 				'Miserable Faith',
 				'Hang on the Box',
 				'Carsick Cars',
 				'Omnipotent Youth Society',
 				'Re-TROS'
+			],
+			sources: [
+				'https://www.allmusic.com/style/chinese-rock-ma0000012205',
+				'https://en.wikipedia.org/wiki/Chinese_rock'
 			]
 		},
 		{
@@ -180,6 +234,10 @@ export const worldRock: SceneDefinition = {
 				'Mdou Moctar',
 				'Imarhan',
 				'Songhoy Blues'
+			],
+			sources: [
+				'https://www.allmusic.com/style/desert-blues-ma0000004497',
+				'https://en.wikipedia.org/wiki/Desert_blues'
 			]
 		}
 	]

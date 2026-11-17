@@ -22,6 +22,33 @@ export const psychProg: SceneDefinition = {
 				'Cream',
 				'Big Brother and the Holding Company',
 				'Os Mutantes'
+			],
+			sources: [
+				'https://www.allmusic.com/style/psychedelic-garage-ma0000002800',
+				'https://en.wikipedia.org/wiki/Psychedelic_rock'
+			]
+		},
+		{
+			name: 'Acid Rock',
+			year: 1966,
+			heaviness: 34,
+			font: 'groovy',
+			description: "Psychedelia's louder, heavier strain, built on long distorted jams.",
+			bands: [
+				'Blue Cheer',
+				'Iron Butterfly',
+				'Quicksilver Messenger Service',
+				'Vanilla Fudge',
+				'Steppenwolf',
+				'Big Brother and the Holding Company',
+				'Country Joe and the Fish',
+				'The Amboy Dukes',
+				'Spirit',
+				'The Electric Prunes'
+			],
+			sources: [
+				'https://www.allmusic.com/style/acid-rock-ma0000012327',
+				'https://en.wikipedia.org/wiki/Acid_rock'
 			]
 		},
 		{
@@ -38,8 +65,13 @@ export const psychProg: SceneDefinition = {
 				'Ozric Tentacles',
 				'Spacemen 3',
 				'Spiritualized',
+				'Flying Saucer Attack',
 				'Monster Magnet',
 				'Failure'
+			],
+			sources: [
+				'https://www.allmusic.com/style/space-rock-ma0000012255',
+				'https://en.wikipedia.org/wiki/Space_rock'
 			]
 		},
 		{
@@ -58,16 +90,20 @@ export const psychProg: SceneDefinition = {
 				'Ash Ra Tempel',
 				'Cluster',
 				'Harmonia',
-				'La Düsseldorf'
+				'Popol Vuh'
+			],
+			sources: [
+				'https://www.allmusic.com/style/kraut-rock-ma0000002687',
+				'https://en.wikipedia.org/wiki/Krautrock'
 			]
 		},
 		{
 			name: 'Progressive Rock',
-			year: 1968,
+			year: 1967,
 			heaviness: 25,
 			font: 'condensed',
 			description:
-				'Long-form suites, classical ambition and virtuosic playing, from the 70s giants to 80s neo-prog.',
+				'Long-form suites, classical ambition and virtuosic playing, from the late-60s symphonic pioneers to the 70s giants.',
 			bands: [
 				'King Crimson',
 				'Yes',
@@ -78,26 +114,11 @@ export const psychProg: SceneDefinition = {
 				'Rush',
 				'Van der Graaf Generator',
 				'Gentle Giant',
-				'Marillion'
-			]
-		},
-		{
-			name: 'Symphonic Rock',
-			year: 1967,
-			heaviness: 18,
-			font: 'rocker',
-			description: 'Rock bands working with orchestras, Mellotron and classical themes.',
-			bands: [
-				'The Moody Blues',
-				'Procol Harum',
-				'The Nice',
-				'Electric Light Orchestra',
-				'Renaissance',
-				'Barclay James Harvest',
-				'Emerson, Lake & Palmer',
-				'Kansas',
-				'Premiata Forneria Marconi',
-				'The Enid'
+				'The Moody Blues'
+			],
+			sources: [
+				'https://www.allmusic.com/style/prog-rock-ma0000002798',
+				'https://en.wikipedia.org/wiki/Progressive_rock'
 			]
 		},
 		{
@@ -114,14 +135,15 @@ export const psychProg: SceneDefinition = {
 				'Sparks',
 				'Kate Bush',
 				'Peter Gabriel',
-				'Talking Heads',
+				'Electric Light Orchestra',
 				'Frank Zappa',
 				'Radiohead'
-			]
+			],
+			sources: ['https://www.allmusic.com/style/art-rock-ma0000002431', 'https://en.wikipedia.org/wiki/Art_rock']
 		},
 		{
 			name: 'Canterbury Scene',
-			year: 1966,
+			year: 1968,
 			heaviness: 15,
 			font: 'typewriter',
 			description: 'Whimsical, jazz-inflected English prog with a very British sense of humor.',
@@ -136,6 +158,10 @@ export const psychProg: SceneDefinition = {
 				'Hatfield and the North',
 				'National Health',
 				'Gilgamesh'
+			],
+			sources: [
+				'https://www.allmusic.com/style/canterbury-scene-ma0000012298',
+				'https://en.wikipedia.org/wiki/Canterbury_scene'
 			]
 		},
 		{
@@ -155,6 +181,10 @@ export const psychProg: SceneDefinition = {
 				'Steely Dan',
 				'Frank Zappa',
 				'Brand X'
+			],
+			sources: [
+				'https://www.allmusic.com/style/jazz-rock-ma0000012014',
+				'https://en.wikipedia.org/wiki/Jazz_fusion#Jazz_rock'
 			]
 		},
 		{
@@ -175,17 +205,41 @@ export const psychProg: SceneDefinition = {
 				'Thinking Plague',
 				'Present',
 				'Magma'
+			],
+			sources: [
+				'https://www.allmusic.com/style/avant-prog-ma0000011969',
+				'https://en.wikipedia.org/wiki/Progressive_rock#Avant-prog'
 			]
 		},
 		{
+			name: 'Neo-Prog',
+			year: 1981,
+			heaviness: 22,
+			font: 'condensed',
+			description: '80s revival of melodic, keyboard-rich progressive rock.',
+			bands: [
+				'Marillion',
+				'IQ',
+				'Pendragon',
+				'Pallas',
+				'Twelfth Night',
+				'Fish',
+				'Saga',
+				'Arena',
+				'Galahad',
+				'Jadis'
+			],
+			sources: ['https://www.allmusic.com/style/neo-prog-ma0000012218', 'https://en.wikipedia.org/wiki/Neo-prog']
+		},
+		{
 			name: 'Neo-Psychedelia',
-			year: 1980,
+			year: 1978,
 			heaviness: 17,
 			font: 'groovy',
 			description: "Later generations reviving 60s psychedelia's textures and studio tricks.",
 			bands: [
 				'The Teardrop Explodes',
-				'Julian Cope',
+				'Echo & the Bunnymen',
 				'The Flaming Lips',
 				'Mercury Rev',
 				'The Brian Jonestown Massacre',
@@ -194,6 +248,10 @@ export const psychProg: SceneDefinition = {
 				'Tame Impala',
 				'MGMT',
 				'Temples'
+			],
+			sources: [
+				'https://www.allmusic.com/style/neo-psychedelia-ma0000012252',
+				'https://en.wikipedia.org/wiki/Neo-psychedelia'
 			]
 		},
 		{
@@ -210,9 +268,13 @@ export const psychProg: SceneDefinition = {
 				'The Residents',
 				'Pere Ubu',
 				'This Heat',
-				'Swans',
+				'Red Krayola',
 				'Sonic Youth',
 				'Scott Walker'
+			],
+			sources: [
+				'https://www.allmusic.com/style/experimental-rock-ma0000002583',
+				'https://en.wikipedia.org/wiki/Experimental_rock'
 			]
 		},
 		{
@@ -224,14 +286,18 @@ export const psychProg: SceneDefinition = {
 			bands: [
 				'Talk Talk',
 				'Slint',
+				'Bark Psychosis',
 				'Tortoise',
 				'Godspeed You! Black Emperor',
 				'Mogwai',
 				'Sigur Rós',
 				'Explosions in the Sky',
-				'Do Make Say Think',
 				'Mono',
 				'This Will Destroy You'
+			],
+			sources: [
+				'https://www.allmusic.com/style/post-rock-ma0000002790',
+				'https://en.wikipedia.org/wiki/Post-rock'
 			]
 		},
 		{
@@ -241,6 +307,7 @@ export const psychProg: SceneDefinition = {
 			font: 'condensed',
 			description: 'Angular, rhythmically complex guitar music full of odd meters and finger tapping.',
 			bands: [
+				'Slint',
 				'Don Caballero',
 				'Polvo',
 				'June of 44',
@@ -248,9 +315,12 @@ export const psychProg: SceneDefinition = {
 				'Faraquet',
 				'Battles',
 				'toe',
-				'Tera Melos',
 				'Chon',
 				'Covet'
+			],
+			sources: [
+				'https://www.allmusic.com/style/math-rock-ma0000012250',
+				'https://en.wikipedia.org/wiki/Math_rock'
 			]
 		}
 	]

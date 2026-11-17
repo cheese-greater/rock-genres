@@ -10,7 +10,7 @@ export const punk: SceneDefinition = {
 			year: 1967,
 			heaviness: 40,
 			font: 'marker',
-			description: 'Raw, nihilistic garage rock that anticipated punk by a decade.',
+			description: 'Raw, nihilistic garage, art and glam rock that anticipated punk by a decade.',
 			bands: [
 				'The Velvet Underground',
 				'The Stooges',
@@ -21,6 +21,10 @@ export const punk: SceneDefinition = {
 				'Suicide',
 				'Rocket from the Tombs',
 				'Patti Smith'
+			],
+			sources: [
+				'https://www.allmusic.com/style/proto-punk-ma0000005021',
+				'https://en.wikipedia.org/wiki/Proto-punk'
 			]
 		},
 		{
@@ -40,7 +44,8 @@ export const punk: SceneDefinition = {
 				'Dead Boys',
 				'X',
 				'Stiff Little Fingers'
-			]
+			],
+			sources: ['https://www.allmusic.com/style/punk-ma0000002806', 'https://en.wikipedia.org/wiki/Punk_rock']
 		},
 		{
 			name: 'Pop Punk',
@@ -59,7 +64,8 @@ export const punk: SceneDefinition = {
 				'New Found Glory',
 				'Fall Out Boy',
 				'The Wonder Years'
-			]
+			],
+			sources: ['https://www.allmusic.com/style/pop-punk-ma0000004449', 'https://en.wikipedia.org/wiki/Pop-punk']
 		},
 		{
 			name: 'Skate Punk',
@@ -78,6 +84,10 @@ export const punk: SceneDefinition = {
 				'Millencolin',
 				'No Use for a Name',
 				'Strung Out'
+			],
+			sources: [
+				'https://www.allmusic.com/style/skatepunk-ma0000011954',
+				'https://en.wikipedia.org/wiki/Skate_punk'
 			]
 		},
 		{
@@ -97,7 +107,8 @@ export const punk: SceneDefinition = {
 				'The Exploited',
 				'The Casualties',
 				'Rancid'
-			]
+			],
+			sources: ['https://www.allmusic.com/style/oi%21-ma0000002761', 'https://en.wikipedia.org/wiki/Oi%21']
 		},
 		{
 			name: 'Anarcho-Punk',
@@ -113,9 +124,13 @@ export const punk: SceneDefinition = {
 				'Subhumans',
 				'Zounds',
 				'Rudimentary Peni',
-				'Dirt',
+				'Dead Kennedys',
 				'Chumbawamba',
 				'Antisect'
+			],
+			sources: [
+				'https://www.allmusic.com/style/anarchist-punk-ma0000011967',
+				'https://en.wikipedia.org/wiki/Anarcho-punk'
 			]
 		},
 		{
@@ -127,14 +142,15 @@ export const punk: SceneDefinition = {
 			bands: [
 				'Misfits',
 				'Samhain',
-				'The Crimson Ghosts',
+				'The Undead',
 				'Balzac',
 				'Calabrese',
 				'Blitzkid',
 				'Murderdolls',
 				'Wednesday 13',
 				'45 Grave'
-			]
+			],
+			sources: ['https://en.wikipedia.org/wiki/Horror_punk']
 		},
 		{
 			name: 'Psychobilly',
@@ -149,10 +165,14 @@ export const punk: SceneDefinition = {
 				'Guana Batz',
 				'King Kurt',
 				'Batmobile',
-				'The Quakes',
+				'The Reverend Horton Heat',
 				'Mad Sin',
 				'Nekromantix',
 				'Tiger Army'
+			],
+			sources: [
+				'https://www.allmusic.com/style/psychobilly-ma0000002801',
+				'https://en.wikipedia.org/wiki/Psychobilly'
 			]
 		},
 		{
@@ -172,7 +192,8 @@ export const punk: SceneDefinition = {
 				'Catch 22',
 				'Streetlight Manifesto',
 				'Big D and the Kids Table'
-			]
+			],
+			sources: ['https://www.allmusic.com/style/ska-punk-ma0000002640', 'https://en.wikipedia.org/wiki/Ska_punk']
 		},
 		{
 			name: 'Celtic Punk',
@@ -190,6 +211,10 @@ export const punk: SceneDefinition = {
 				'Flatfoot 56',
 				'The Mahones',
 				'Greenland Whalefishers'
+			],
+			sources: [
+				'https://www.allmusic.com/style/celtic-rock-ma0000005023',
+				'https://en.wikipedia.org/wiki/Celtic_punk'
 			]
 		},
 		{
@@ -200,13 +225,18 @@ export const punk: SceneDefinition = {
 			description: 'Acoustic guitars, banjos and accordions played with punk ethics.',
 			bands: [
 				'Violent Femmes',
+				'The Pogues',
 				'Billy Bragg',
 				'Against Me!',
 				'Mischief Brew',
 				'AJJ',
 				'Defiance, Ohio',
 				'This Bike Is a Pipe Bomb',
-				'Days N Daze'
+				"Days N' Daze"
+			],
+			sources: [
+				'https://www.allmusic.com/style/anti-folk-ma0000004417',
+				'https://en.wikipedia.org/wiki/Folk_punk'
 			]
 		},
 		{
@@ -217,15 +247,19 @@ export const punk: SceneDefinition = {
 			description: 'Primal blues stripped down and played with a punk snarl.',
 			bands: [
 				'The Gun Club',
-				'The Cramps',
 				'The Birthday Party',
 				'The Gories',
 				'Flat Duo Jets',
 				'Jon Spencer Blues Explosion',
 				'Bob Log III',
+				'The Immortal Lee County Killers',
 				'The White Stripes',
 				'The Kills',
 				'The Oblivians'
+			],
+			sources: [
+				'https://www.allmusic.com/style/punk-blues-ma0000012191',
+				'https://en.wikipedia.org/wiki/Punk_blues'
 			]
 		},
 		{
@@ -245,6 +279,10 @@ export const punk: SceneDefinition = {
 				'The Ex',
 				'Parquet Courts',
 				'Ought'
+			],
+			sources: [
+				'https://www.allmusic.com/style/punk-new-wave-ma0000011872',
+				'https://en.wikipedia.org/wiki/Art_punk'
 			]
 		},
 		{
@@ -264,7 +302,31 @@ export const punk: SceneDefinition = {
 				"Emily's Sassy Lime",
 				'Skinned Teen',
 				'Le Tigre'
+			],
+			sources: [
+				'https://www.allmusic.com/style/riot-grrrl-ma0000011837',
+				'https://en.wikipedia.org/wiki/Riot_grrrl'
 			]
+		},
+		{
+			name: 'Cowpunk',
+			year: 1981,
+			heaviness: 37,
+			font: 'western',
+			description: 'Punk energy and attitude crossed with the twang of classic country, folk and blues.',
+			bands: [
+				'Jason & the Scorchers',
+				'The Gun Club',
+				'Rank and File',
+				'Meat Puppets',
+				'The Mekons',
+				'The Long Ryders',
+				'Blood on the Saddle',
+				'The Beat Farmers',
+				'Lone Justice',
+				'Mojo Nixon'
+			],
+			sources: ['https://www.allmusic.com/style/cowpunk-ma0000012106', 'https://en.wikipedia.org/wiki/Cowpunk']
 		},
 		{
 			name: 'Dance-Punk',
@@ -276,14 +338,15 @@ export const punk: SceneDefinition = {
 				'ESG',
 				'A Certain Ratio',
 				'Liquid Liquid',
-				'Delta 5',
+				'Gang of Four',
 				'The Rapture',
 				'LCD Soundsystem',
 				'!!!',
 				'Radio 4',
 				'Death from Above 1979',
 				'New Order'
-			]
+			],
+			sources: ['https://en.wikipedia.org/wiki/Dance-punk']
 		}
 	]
 };

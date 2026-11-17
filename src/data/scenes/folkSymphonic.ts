@@ -22,6 +22,10 @@ export const folkSymphonic: SceneDefinition = {
 				'Xandria',
 				'Haggard',
 				"Leaves' Eyes"
+			],
+			sources: [
+				'https://www.allmusic.com/style/symphonic-metal-ma0000013526',
+				'https://en.wikipedia.org/wiki/Symphonic_metal'
 			]
 		},
 		{
@@ -29,8 +33,7 @@ export const folkSymphonic: SceneDefinition = {
 			year: 1990,
 			heaviness: 62,
 			font: 'blackletter',
-			description:
-				'Metal played with fiddles, bagpipes, hurdy-gurdies and traditional melodies, Celtic and medieval alike.',
+			description: 'Metal played with fiddles, bagpipes, accordions and traditional melodies.',
 			bands: [
 				'Skyclad',
 				'Cruachan',
@@ -40,8 +43,12 @@ export const folkSymphonic: SceneDefinition = {
 				'Eluveitie',
 				'Turisas',
 				'Equilibrium',
-				'In Extremo',
+				'Orphaned Land',
 				'The Hu'
+			],
+			sources: [
+				'https://www.allmusic.com/style/folk-metal-ma0000013581',
+				'https://en.wikipedia.org/wiki/Folk_metal'
 			]
 		},
 		{
@@ -61,6 +68,10 @@ export const folkSymphonic: SceneDefinition = {
 				'Amon Amarth',
 				'Månegarm',
 				'Týr'
+			],
+			sources: [
+				'https://www.allmusic.com/style/scandinavian-metal-ma0000012324',
+				'https://en.wikipedia.org/wiki/Viking_metal'
 			]
 		},
 		{
@@ -75,28 +86,70 @@ export const folkSymphonic: SceneDefinition = {
 				'Moonsorrow',
 				'Negură Bunget',
 				'Menhir',
-				'Helheim',
+				'In the Woods...',
 				'Heidevolk',
-				'Svartsot',
+				'Skyclad',
 				'Arkona',
 				'Skyforger'
+			],
+			sources: ['https://en.wikipedia.org/wiki/Pagan_metal']
+		},
+		{
+			name: 'Celtic Metal',
+			year: 1992,
+			heaviness: 63,
+			font: 'pirate',
+			description: 'Irish, Scottish and Gaulish folk melodies and instruments woven into metal.',
+			bands: [
+				'Cruachan',
+				'Waylander',
+				'Primordial',
+				'Mael Mórdha',
+				'Geasa',
+				'Suidakra',
+				'Eluveitie',
+				'Darkest Era',
+				'Mägo de Oz',
+				'Skiltron'
+			],
+			sources: [
+				'https://www.allmusic.com/artist/darkest-era-mn0002615588',
+				'https://en.wikipedia.org/wiki/Celtic_metal'
 			]
 		},
 		{
 			name: 'Pirate Metal',
-			year: 2006,
+			year: 1987,
 			heaviness: 60,
 			font: 'pirate',
-			description: 'Shanty choruses, accordion jigs and swashbuckling, rum-soaked power metal.',
-			bands: ['Running Wild', 'Alestorm', 'Swashbuckle', 'Lagerstein', 'Red Rum', 'Storm Seeker', 'Rumahoy']
+			description:
+				'Shanty choruses, accordion jigs and rum-soaked swashbuckling lyrics over power, folk or thrash metal.',
+			bands: ['Running Wild', 'Alestorm', 'Swashbuckle', 'Lagerstein', 'Red Rum', 'Storm Seeker', 'Rumahoy'],
+			sources: [
+				'https://www.allmusic.com/artist/running-wild-mn0000302026',
+				'https://en.wikipedia.org/wiki/Pirate_metal'
+			]
 		},
 		{
-			name: 'Oriental Metal',
-			year: 1991,
-			heaviness: 71,
-			font: 'pirate',
-			description: 'Middle Eastern scales, instruments and melodies fused with metal.',
-			bands: ['Orphaned Land', 'Melechesh', 'Nile', 'Arallu', 'Al-Namrood', 'Acrassicauda', 'Myrath', 'Amaseffer']
+			name: 'Medieval Metal',
+			year: 1995,
+			heaviness: 50,
+			font: 'blackletter',
+			description: 'Mostly German metal where bagpipes, hurdy-gurdies and shawms meet distorted guitars.',
+			bands: [
+				'In Extremo',
+				'Subway to Sally',
+				'Tanzwut',
+				'Schandmaul',
+				'Saltatio Mortis',
+				'Letzte Instanz',
+				'Feuerschwanz',
+				'Folkstone'
+			],
+			sources: [
+				'https://www.allmusic.com/artist/saltatio-mortis-mn0000298456',
+				'https://en.wikipedia.org/wiki/Medieval_metal'
+			]
 		}
 	]
 };

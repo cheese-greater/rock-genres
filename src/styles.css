@@ -483,8 +483,14 @@ h1 {
 	gap: 4px;
 }
 
+.bands li {
+	display: flex;
+	gap: 4px;
+}
+
 .band {
-	width: 100%;
+	flex: 1;
+	min-width: 0;
 	min-height: 44px;
 	display: flex;
 	align-items: center;
@@ -542,15 +548,67 @@ h1 {
 	transform: rotate(-45deg) translate(1px, -1px);
 }
 
-.picked {
-	min-height: 1em;
+/* A full 44px touch target beside each band, kept quiet so the band names stay the focus. */
+.listen {
+	flex: none;
+	display: grid;
+	place-items: center;
+	width: 44px;
+	min-height: 44px;
+	color: var(--faint);
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+
+.listen:hover {
+	color: var(--text);
+	border-color: var(--line);
+	background: rgba(255, 255, 255, 0.04);
+}
+
+.tile-footer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	gap: 0 12px;
 	font-size: 13px;
 	color: var(--faint);
 }
 
+.picked {
+	min-height: 1em;
+}
+
+.sources {
+	display: inline-flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 0 6px;
+	margin-left: auto;
+}
+
+/* Small text, but each link still gets a full-height touch target. */
+.sources a {
+	display: inline-flex;
+	align-items: center;
+	min-height: 44px;
+	color: var(--muted);
+}
+
+.source-separator {
+	color: var(--faint);
+}
+
+.sources a:hover {
+	color: var(--text);
+}
+
 .tile.lit .meta .scene,
 .tile.lit .meta .era,
-.tile.lit .picked {
+.tile.lit .listen,
+.tile.lit .tile-footer,
+.tile.lit .sources a {
 	color: var(--lit-text);
 }
 

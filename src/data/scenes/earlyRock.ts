@@ -22,6 +22,10 @@ export const earlyRock: SceneDefinition = {
 				'Bo Diddley',
 				'Eddie Cochran',
 				'Ritchie Valens'
+			],
+			sources: [
+				'https://www.allmusic.com/style/rock-roll-ma0000002829',
+				'https://en.wikipedia.org/wiki/Rock_and_roll'
 			]
 		},
 		{
@@ -33,14 +37,18 @@ export const earlyRock: SceneDefinition = {
 			bands: [
 				'Carl Perkins',
 				'Gene Vincent',
+				'Roy Orbison',
 				'Wanda Jackson',
 				'Johnny Burnette',
 				'Charlie Feathers',
 				'Billy Lee Riley',
-				'Sonny Burgess',
 				'Janis Martin',
 				'Stray Cats',
 				'The Reverend Horton Heat'
+			],
+			sources: [
+				'https://www.allmusic.com/style/rockabilly-ma0000002831',
+				'https://en.wikipedia.org/wiki/Rockabilly'
 			]
 		},
 		{
@@ -60,7 +68,8 @@ export const earlyRock: SceneDefinition = {
 				'The Bel-Airs',
 				'Los Straitjackets',
 				'Man or Astro-man?'
-			]
+			],
+			sources: ['https://www.allmusic.com/style/surf-ma0000002883', 'https://en.wikipedia.org/wiki/Surf_music']
 		},
 		{
 			name: 'British Invasion',
@@ -80,6 +89,10 @@ export const earlyRock: SceneDefinition = {
 				'The Dave Clark Five',
 				'Them',
 				'The Hollies'
+			],
+			sources: [
+				'https://www.allmusic.com/style/british-invasion-ma0000002484',
+				'https://en.wikipedia.org/wiki/British_Invasion'
 			]
 		},
 		{
@@ -91,14 +104,18 @@ export const earlyRock: SceneDefinition = {
 			bands: [
 				'The Sonics',
 				'The Kingsmen',
+				'Paul Revere & the Raiders',
 				'The Seeds',
 				'The Standells',
 				'? and the Mysterians',
 				'Count Five',
 				'The Shadows of Knight',
-				'The Remains',
 				'The Music Machine',
 				'The Chocolate Watchband'
+			],
+			sources: [
+				'https://www.allmusic.com/style/garage-rock-ma0000004458',
+				'https://en.wikipedia.org/wiki/Garage_rock'
 			]
 		},
 		{
@@ -117,7 +134,11 @@ export const earlyRock: SceneDefinition = {
 				'The Smoke',
 				"John's Children",
 				'The Birds',
-				'The Craig'
+				'The Sorrows'
+			],
+			sources: [
+				'https://www.allmusic.com/style/freakbeat-ma0000012342',
+				'https://en.wikipedia.org/wiki/Freakbeat'
 			]
 		},
 		{
@@ -137,6 +158,10 @@ export const earlyRock: SceneDefinition = {
 				'The Turtles',
 				"The Lovin' Spoonful",
 				'Steeleye Span'
+			],
+			sources: [
+				'https://www.allmusic.com/style/folk-rock-ma0000002593',
+				'https://en.wikipedia.org/wiki/Folk_rock'
 			]
 		}
 	]

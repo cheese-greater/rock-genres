@@ -22,7 +22,33 @@ export const thrashGroove: SceneDefinition = {
 				'Overkill',
 				'Kreator',
 				'Sodom',
-				'Destruction'
+				'Havok'
+			],
+			sources: [
+				'https://www.allmusic.com/style/speed-thrash-metal-ma0000002874',
+				'https://en.wikipedia.org/wiki/Thrash_metal'
+			]
+		},
+		{
+			name: 'Teutonic Thrash',
+			year: 1983,
+			heaviness: 79,
+			font: 'metal',
+			description: "Germany's rawer, more savage thrash, led by the Big Teutonic Four.",
+			bands: [
+				'Kreator',
+				'Sodom',
+				'Destruction',
+				'Tankard',
+				'Holy Moses',
+				'Exumer',
+				'Assassin',
+				'Paradox',
+				'Deathrow'
+			],
+			sources: [
+				'https://www.allmusic.com/artist/destruction-mn0000201593',
+				'https://en.wikipedia.org/wiki/Teutonic_thrash_metal'
 			]
 		},
 		{
@@ -40,13 +66,17 @@ export const thrashGroove: SceneDefinition = {
 				'Nuclear Assault',
 				'Excel',
 				'Municipal Waste',
-				'Iron Reagan',
+				'Gama Bomb',
 				'Power Trip'
+			],
+			sources: [
+				'https://www.allmusic.com/style/punk-metal-ma0000012022',
+				'https://en.wikipedia.org/wiki/Crossover_thrash'
 			]
 		},
 		{
 			name: 'Technical Thrash',
-			year: 1987,
+			year: 1985,
 			heaviness: 75,
 			font: 'space',
 			description: 'Thrash with progressive structures, jazz chords and tricky time changes.',
@@ -56,30 +86,15 @@ export const thrashGroove: SceneDefinition = {
 				'Coroner',
 				'Mekong Delta',
 				'Toxik',
-				'Realm',
-				'Sieges Even',
+				'Anacrusis',
+				'Sadus',
 				'Believer',
 				'Annihilator',
 				'Vektor'
-			]
-		},
-		{
-			name: 'Thrash Revival',
-			year: 2005,
-			heaviness: 74,
-			font: 'marker',
-			description: 'New-millennium bands reviving 80s thrash with high-tops, denim and party energy.',
-			bands: [
-				'Municipal Waste',
-				'Toxic Holocaust',
-				'Warbringer',
-				'Havok',
-				'Evile',
-				'Bonded by Blood',
-				'Gama Bomb',
-				'Fueled by Fire',
-				'Lost Society',
-				'Power Trip'
+			],
+			sources: [
+				'https://www.allmusic.com/artist/mn0000122138',
+				'https://en.wikipedia.org/wiki/Thrash_metal#Technical_thrash_metal'
 			]
 		},
 		{
@@ -99,6 +114,10 @@ export const thrashGroove: SceneDefinition = {
 				'DevilDriver',
 				'Chimaira',
 				'Five Finger Death Punch'
+			],
+			sources: [
+				'https://www.allmusic.com/artist/pantera-mn0000005441',
+				'https://en.wikipedia.org/wiki/Groove_metal'
 			]
 		},
 		{
@@ -110,14 +129,16 @@ export const thrashGroove: SceneDefinition = {
 			bands: [
 				'Down',
 				'Corrosion of Conformity',
-				'Crowbar',
+				'Pride & Glory',
 				'Black Label Society',
 				'Alabama Thunderpussy',
-				'Weedeater',
+				'Sixty Watt Shaman',
 				'Maylene and the Sons of Disaster',
-				'Black Tusk',
-				'Hellyeah',
 				'Texas Hippie Coalition'
+			],
+			sources: [
+				'https://www.allmusic.com/artist/corrosion-of-conformity-mn0000105422',
+				'https://en.wikipedia.org/wiki/Southern_rock#Southern_metal'
 			]
 		}
 	]
