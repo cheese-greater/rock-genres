@@ -1,33 +1,10 @@
 import type { SceneDefinition } from '../types';
 
-export const folkSymphonic: SceneDefinition = {
+export const folkViking: SceneDefinition = {
 	id: 'folk',
 	kind: 'Metal',
-	name: 'Folk, Viking & Symphonic',
+	name: 'Folk, Viking & Pagan',
 	genres: [
-		{
-			name: 'Symphonic Metal',
-			year: 1995,
-			heaviness: 55,
-			font: 'rocker',
-			description: 'Orchestral arrangements and choirs layered over metal.',
-			bands: [
-				'Nightwish',
-				'Epica',
-				'Within Temptation',
-				'Therion',
-				'Rhapsody of Fire',
-				'After Forever',
-				'Delain',
-				'Xandria',
-				'Haggard',
-				"Leaves' Eyes"
-			],
-			sources: [
-				'https://www.allmusic.com/style/symphonic-metal-ma0000013526',
-				'https://en.wikipedia.org/wiki/Symphonic_metal'
-			]
-		},
 		{
 			name: 'Folk Metal',
 			year: 1990,

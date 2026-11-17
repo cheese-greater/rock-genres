@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 
-import { normalizeText } from '../lib/text';
+import { bandKey } from '../lib/text';
 import { genres, sceneDefinitions, scenes } from '.';
 
 // Matches em dash, en dash and typographic quotes, which would split one band into two pick keys.
@@ -39,10 +39,7 @@ describe('genre data', () => {
 	it('spells each band the same way in every genre', () => {
 		const spellingsByKey = new Map<string, Set<string>>();
 		for (const band of genres.flatMap((genre) => genre.bands)) {
-			const key = normalizeText(band)
-				.replace(/^the /, '')
-				.replace(/[^a-z0-9]/g, '');
-			spellingsByKey.set(key, (spellingsByKey.get(key) ?? new Set()).add(band));
+			spellingsByKey.set(bandKey(band), (spellingsByKey.get(bandKey(band)) ?? new Set()).add(band));
 		}
 		const inconsistent = [...spellingsByKey.values()]
 			.filter((spellings) => spellings.size > 1)

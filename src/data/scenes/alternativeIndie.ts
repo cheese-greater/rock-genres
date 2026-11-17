@@ -246,6 +246,29 @@ export const alternativeIndie: SceneDefinition = {
 			sources: ['https://www.allmusic.com/style/britpop-ma0000002480', 'https://en.wikipedia.org/wiki/Britpop']
 		},
 		{
+			name: 'Post-Grunge',
+			year: 1994,
+			heaviness: 39,
+			font: 'condensed',
+			description: 'Radio-friendly, polished descendants of grunge that ruled late-90s rock radio.',
+			bands: [
+				'Bush',
+				'Foo Fighters',
+				'Silverchair',
+				'Collective Soul',
+				'Candlebox',
+				'Creed',
+				'3 Doors Down',
+				'Nickelback',
+				'Puddle of Mudd',
+				'Seether'
+			],
+			sources: [
+				'https://www.allmusic.com/style/post-grunge-ma0000005020',
+				'https://en.wikipedia.org/wiki/Post-grunge'
+			]
+		},
+		{
 			name: 'Post-Britpop',
 			year: 1997,
 			heaviness: 8,

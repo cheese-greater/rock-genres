@@ -5,7 +5,7 @@ import { blackMetal } from './scenes/blackMetal';
 import { deathGrind } from './scenes/deathGrind';
 import { doomSludge } from './scenes/doomSludge';
 import { earlyRock } from './scenes/earlyRock';
-import { folkSymphonic } from './scenes/folkSymphonic';
+import { folkViking } from './scenes/folkViking';
 import { hardcoreEmo } from './scenes/hardcoreEmo';
 import { hardRock } from './scenes/hardRock';
 import { heavyPower } from './scenes/heavyPower';
@@ -37,7 +37,7 @@ export const sceneDefinitions: SceneDefinition[] = [
 	deathGrind,
 	blackMetal,
 	doomSludge,
-	folkSymphonic,
+	folkViking,
 	progressiveAvant,
 	alternativeNu,
 	metalcore

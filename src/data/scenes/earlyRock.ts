@@ -140,29 +140,6 @@ export const earlyRock: SceneDefinition = {
 				'https://www.allmusic.com/style/freakbeat-ma0000012342',
 				'https://en.wikipedia.org/wiki/Freakbeat'
 			]
-		},
-		{
-			name: 'Folk Rock',
-			year: 1965,
-			heaviness: 6,
-			font: 'typewriter',
-			description: 'Folk songwriting plugged in: chiming twelve-strings and close harmonies.',
-			bands: [
-				'The Byrds',
-				'Bob Dylan',
-				'Simon & Garfunkel',
-				'The Mamas & the Papas',
-				'Buffalo Springfield',
-				'Fairport Convention',
-				'Crosby, Stills, Nash & Young',
-				'The Turtles',
-				"The Lovin' Spoonful",
-				'Steeleye Span'
-			],
-			sources: [
-				'https://www.allmusic.com/style/folk-rock-ma0000002593',
-				'https://en.wikipedia.org/wiki/Folk_rock'
-			]
 		}
 	]
 };

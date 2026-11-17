@@ -141,26 +141,6 @@ export const deathGrind: SceneDefinition = {
 			]
 		},
 		{
-			name: 'Blackened Death Metal',
-			year: 1991,
-			heaviness: 90,
-			font: 'blackletter',
-			description: "Death metal riffs with black metal's tremolo picking, atmosphere and blasphemy.",
-			bands: [
-				'Necrophobic',
-				'Dissection',
-				'Angelcorpse',
-				'Vital Remains',
-				'Behemoth',
-				'Belphegor',
-				'Zyklon',
-				'Akercocke',
-				'Hate',
-				'Imperial Triumphant'
-			],
-			sources: ['https://en.wikipedia.org/wiki/Blackened_death_metal']
-		},
-		{
 			name: 'Grindcore',
 			year: 1985,
 			heaviness: 97,
