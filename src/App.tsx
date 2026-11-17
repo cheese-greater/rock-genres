@@ -2,6 +2,7 @@ import { useCallback, useDeferredValue, useMemo, useState } from 'react';
 
 import ControlBar from './components/ControlBar';
 import GenreTile from './components/GenreTile';
+import ScenePicksChart from './components/ScenePicksChart';
 import TopGenres from './components/TopGenres';
 import { genres, scenes } from './data';
 import { useFlipAnimation } from './hooks/useFlipAnimation';
@@ -70,8 +71,10 @@ export default function App() {
 					<div className='kicker'>Find your sound</div>
 					<h1>The Genres of Rock &amp; Metal</h1>
 					<p className='lede'>
-						Tap every band you like across {genres.length} genres. Each genre lights up as you pick its
-						bands, and you can sort the board to see which styles you love most.
+						Each of the {genres.length} genres lists five to ten bands that defined it, from its pioneers to
+						recent standouts, picked as representatives rather than rankings. Tap every band you like: a
+						band that appears in several genres counts toward each one, and each genre lights up as you pick
+						its bands. Then sort the board to see which styles you love most.
 					</p>
 				</header>
 			</div>
@@ -89,6 +92,7 @@ export default function App() {
 			/>
 			<div className='wrap board'>
 				<TopGenres picks={picks} />
+				<ScenePicksChart picks={picks} />
 				<div className='grid-status'>
 					<span>
 						Showing {visibleGenres.length} of {genres.length} genres
@@ -131,7 +135,7 @@ export default function App() {
 				<footer>
 					<span>
 						Softest-to-hardest order, origin dates and genre lines are approximate: many bands span several
-						styles. Lists show influential representatives, not rankings.
+						styles.
 					</span>
 					<span>
 						Your picks are saved in this browser.{' '}

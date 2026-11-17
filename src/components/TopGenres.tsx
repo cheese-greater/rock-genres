@@ -1,10 +1,29 @@
 import { useMemo } from 'react';
 
 import { genres } from '../data';
+import type { Genre } from '../data/types';
+import { useFitText } from '../hooks/useFitText';
 import { countPicked, fontStacks, rankByPicks } from '../lib/genres';
 
 interface TopGenresProps {
 	picks: ReadonlySet<string>;
+}
+
+interface PodiumNameProps {
+	genre: Genre;
+}
+
+function PodiumName({ genre }: PodiumNameProps) {
+	const nameRef = useFitText<HTMLDivElement>();
+	return (
+		<div
+			className='podium-name'
+			ref={nameRef}
+			style={{ fontFamily: fontStacks[genre.font] }}
+		>
+			{genre.name}
+		</div>
+	);
 }
 
 export default function TopGenres({ picks }: TopGenresProps) {
@@ -34,13 +53,8 @@ export default function TopGenres({ picks }: TopGenresProps) {
 							key={genre.id}
 						>
 							<span className='place'>{index + 1}</span>
-							<div>
-								<div
-									className='podium-name'
-									style={{ fontFamily: fontStacks[genre.font] }}
-								>
-									{genre.name}
-								</div>
+							<div className='podium-text'>
+								<PodiumName genre={genre} />
 								<div className='podium-meta'>
 									{pickedCount} of {genre.bands.length} bands, {shareOfPicks}% of your picks
 								</div>

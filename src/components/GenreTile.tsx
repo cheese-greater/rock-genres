@@ -1,6 +1,7 @@
 import { memo, useCallback } from 'react';
 
 import type { Genre } from '../data/types';
+import { useFitText } from '../hooks/useFitText';
 import { bandMatchesQuery, countPicked, eraLabel, fontStacks, tileTint } from '../lib/genres';
 
 interface GenreTileProps {
@@ -16,6 +17,7 @@ function GenreTile({ genre, normalizedQuery, onToggleBand, picks, registerTile }
 		(element: HTMLElement | null) => registerTile(genre.id, element),
 		[genre.id, registerTile]
 	);
+	const titleRef = useFitText<HTMLHeadingElement>();
 	const pickedCount = countPicked(genre, picks);
 	const pickedShare = pickedCount / genre.bands.length;
 	const titleId = `genre-${genre.id}`;
@@ -38,6 +40,7 @@ function GenreTile({ genre, normalizedQuery, onToggleBand, picks, registerTile }
 			</div>
 			<h3
 				id={titleId}
+				ref={titleRef}
 				style={{ fontFamily: fontStacks[genre.font] }}
 			>
 				{genre.name}

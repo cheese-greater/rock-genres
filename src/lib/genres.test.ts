@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 
 import type { Genre } from '../data/types';
-import { eraLabel, genreMatchesQuery, rankByPicks, sortGenres, tileTint } from './genres';
+import { eraLabel, genreMatchesQuery, rankByPicks, rankScenesByPicks, sortGenres, tileTint } from './genres';
 import { normalizeText } from './text';
 
 const testScene = { id: 'test', kind: 'Metal', name: 'Test Scene' } as const;
@@ -62,6 +62,27 @@ describe('rankByPicks', () => {
 			'Small',
 			'Big',
 			'Untouched'
+		]);
+	});
+});
+
+describe('rankScenesByPicks', () => {
+	it('counts each picked band once per scene, most first, and skips scenes with no picks', () => {
+		const otherScene = { id: 'other', kind: 'Rock', name: 'Other Scene' } as const;
+		const quietScene = { id: 'quiet', kind: 'Rock', name: 'Quiet Scene' } as const;
+		const first = makeGenre('First', { bands: ['Shared', 'Band B', 'Band C', 'Band D', 'Band E'] });
+		const second = makeGenre('Second', { bands: ['Shared', 'Band F', 'Band G', 'Band H', 'Band I'] });
+		const other = makeGenre('Other', {
+			bands: ['Other A', 'Other B', 'Other C', 'Other D', 'Other E'],
+			scene: otherScene
+		});
+		const quiet = makeGenre('Quiet', { scene: quietScene });
+		const picks = new Set(['Shared', 'Band F', 'Other A']);
+
+		const ranked = rankScenesByPicks([other, first, second, quiet], picks);
+		expect(ranked.map(({ bandTotal, pickedCount, scene }) => [scene.id, pickedCount, bandTotal])).toEqual([
+			['test', 2, 9],
+			['other', 1, 5]
 		]);
 	});
 });

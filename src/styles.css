@@ -302,6 +302,11 @@ h1 {
 	color: var(--accent);
 }
 
+/* Lets the name column shrink to its grid cell so long names can be fitted instead of overflowing. */
+.podium-text {
+	min-width: 0;
+}
+
 .podium-name {
 	font-size: 30px;
 	line-height: 1.1;
@@ -311,6 +316,65 @@ h1 {
 	margin-top: 4px;
 	font-size: 14px;
 	color: var(--muted);
+}
+
+/* Picks by scene */
+
+.results + .results {
+	margin-top: 16px;
+}
+
+/* Two columns where there is room for both, one on phones. */
+.scene-bars {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	columns: 2 320px;
+	column-gap: 48px;
+}
+
+.scene-row {
+	break-inside: avoid;
+	padding: 6px 0 10px;
+}
+
+/* A long scene name wraps onto a second line while its count stays on the right. */
+.scene-label {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	gap: 12px;
+	margin-bottom: 6px;
+}
+
+.scene-name {
+	font-family: var(--display-font);
+	font-size: 15px;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+}
+
+.scene-value {
+	font-size: 14px;
+	font-variant-numeric: tabular-nums;
+	white-space: nowrap;
+	color: var(--muted);
+}
+
+/* Square at the baseline, rounded at the data end. */
+.scene-fill {
+	display: block;
+	height: 10px;
+	min-width: 4px;
+	border-radius: 0 4px 4px 0;
+	background: var(--accent);
+	transition: width 0.3s ease;
+}
+
+.scene-toggle {
+	align-self: flex-start;
+	min-height: 44px;
+	padding-inline: 0;
 }
 
 /* Genre grid */
@@ -387,7 +451,6 @@ h1 {
 	font-weight: 400;
 	font-size: 34px;
 	line-height: 1.1;
-	overflow-wrap: anywhere;
 }
 
 .description {
@@ -526,7 +589,8 @@ footer {
 }
 
 @media (prefers-reduced-motion: reduce) {
-	.tile {
+	.tile,
+	.scene-fill {
 		transition: none;
 	}
 }

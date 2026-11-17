@@ -1,9 +1,15 @@
-import type { FontStyle, Genre, GenreKind } from '../data/types';
+import type { FontStyle, Genre, GenreKind, Scene } from '../data/types';
 import { normalizeText } from './text';
 
 export type SortMode = 'heaviness' | 'timeline' | 'favorites';
 
 export type KindFilter = 'All' | GenreKind;
+
+export interface ScenePicks {
+	bandTotal: number;
+	pickedCount: number;
+	scene: Scene;
+}
 
 export const fontStacks: Record<FontStyle, string> = {
 	blackletter: "'UnifrakturMaguntia', 'Pirata One', Georgia, serif",
@@ -49,6 +55,28 @@ export function rankByPicks(genres: readonly Genre[], picks: ReadonlySet<string>
 		const secondShare = secondCount / second.bands.length;
 		return secondCount - firstCount || secondShare - firstShare || compareByHeaviness(first, second);
 	});
+}
+
+// Counts each band once per scene, even when several of that scene's genres list it; scenes with no picks are left out.
+export function rankScenesByPicks(genres: readonly Genre[], picks: ReadonlySet<string>): ScenePicks[] {
+	const bandsBySceneId = new Map<string, { bands: Set<string>; scene: Scene }>();
+	for (const genre of genres) {
+		const sceneBands = bandsBySceneId.get(genre.scene.id) ?? { bands: new Set<string>(), scene: genre.scene };
+		for (const band of genre.bands) sceneBands.bands.add(band);
+		bandsBySceneId.set(genre.scene.id, sceneBands);
+	}
+	return [...bandsBySceneId.values()]
+		.map(({ bands, scene }) => ({
+			bandTotal: bands.size,
+			pickedCount: [...bands].filter((band) => picks.has(band)).length,
+			scene
+		}))
+		.filter((scenePicks) => scenePicks.pickedCount > 0)
+		.sort(
+			(first, second) =>
+				second.pickedCount - first.pickedCount ||
+				second.pickedCount / second.bandTotal - first.pickedCount / first.bandTotal
+		);
 }
 
 // Favorites follow the current picks, so the board re-ranks as bands are picked.
