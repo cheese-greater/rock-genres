@@ -1,4 +1,4 @@
-import { useDeferredValue, useMemo, useState } from 'react';
+import { useCallback, useDeferredValue, useMemo, useState } from 'react';
 
 import ControlBar from './components/ControlBar';
 import GenreTile from './components/GenreTile';
@@ -6,11 +6,9 @@ import TopGenres from './components/TopGenres';
 import { genres, scenes } from './data';
 import { useFlipAnimation } from './hooks/useFlipAnimation';
 import { usePicks } from './hooks/usePicks';
-import { genreMatchesQuery, rankByPicks, sortGenres } from './lib/genres';
+import { genreMatchesQuery, sortGenres } from './lib/genres';
 import type { KindFilter, SortMode } from './lib/genres';
 import { normalizeText } from './lib/text';
-
-const noPicks: ReadonlySet<string> = new Set();
 
 export default function App() {
 	const { clearPicks, picks, toggleBand } = usePicks();
@@ -19,7 +17,6 @@ export default function App() {
 	const [kindFilter, setKindFilter] = useState<KindFilter>('All');
 	const [sceneFilter, setSceneFilter] = useState('all');
 	const [sortMode, setSortMode] = useState<SortMode>('heaviness');
-	const [favoriteOrder, setFavoriteOrder] = useState<string[]>([]);
 
 	const normalizedQuery = normalizeText(useDeferredValue(query).trim());
 
@@ -30,15 +27,22 @@ export default function App() {
 				(sceneFilter === 'all' || genre.scene.id === sceneFilter) &&
 				genreMatchesQuery(genre, normalizedQuery)
 		);
-		return sortGenres(filteredGenres, sortMode, favoriteOrder);
-	}, [favoriteOrder, kindFilter, normalizedQuery, sceneFilter, sortMode]);
+		return sortGenres(filteredGenres, sortMode, picks);
+	}, [kindFilter, normalizedQuery, picks, sceneFilter, sortMode]);
 
 	const filtersActive = kindFilter !== 'All' || sceneFilter !== 'all' || normalizedQuery.length > 0;
 
+	const handleToggleBand = useCallback(
+		(band: string) => {
+			// Favorites re-rank on every pick, so animate the tiles into their new places.
+			if (sortMode === 'favorites') captureLayout();
+			toggleBand(band);
+		},
+		[captureLayout, sortMode, toggleBand]
+	);
+
 	function handleSortChange(nextSortMode: SortMode) {
 		captureLayout();
-		// Choosing favorites again re-ranks with the latest picks.
-		if (nextSortMode === 'favorites') setFavoriteOrder(rankByPicks(genres, picks).map((genre) => genre.id));
 		setSortMode(nextSortMode);
 	}
 
@@ -51,7 +55,6 @@ export default function App() {
 	function handleClear() {
 		captureLayout();
 		clearPicks();
-		setFavoriteOrder(rankByPicks(genres, noPicks).map((genre) => genre.id));
 	}
 
 	function resetFilters() {
@@ -107,7 +110,7 @@ export default function App() {
 								genre={genre}
 								key={genre.id}
 								normalizedQuery={normalizedQuery}
-								onToggleBand={toggleBand}
+								onToggleBand={handleToggleBand}
 								picks={picks}
 								registerTile={registerTile}
 							/>

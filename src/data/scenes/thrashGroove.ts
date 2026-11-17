@@ -10,7 +10,8 @@ export const thrashGroove: SceneDefinition = {
 			year: 1981,
 			heaviness: 76,
 			font: 'metal',
-			description: 'Fast, aggressive palm-muted riffing born from metal meeting hardcore punk.',
+			description:
+				'Fast, aggressive palm-muted riffing born from metal meeting hardcore punk, from the Bay Area to the Ruhr.',
 			bands: [
 				'Metallica',
 				'Slayer',
@@ -22,25 +23,6 @@ export const thrashGroove: SceneDefinition = {
 				'Kreator',
 				'Sodom',
 				'Destruction'
-			]
-		},
-		{
-			name: 'Teutonic Thrash',
-			year: 1983,
-			heaviness: 79,
-			font: 'metal',
-			description: "Germany's rawer, more savage thrash, led by the Big Teutonic Four.",
-			bands: [
-				'Kreator',
-				'Sodom',
-				'Destruction',
-				'Tankard',
-				'Holy Moses',
-				'Exumer',
-				'Assassin',
-				'Darkness',
-				'Deathrow',
-				'Iron Angel'
 			]
 		},
 		{
@@ -79,24 +61,6 @@ export const thrashGroove: SceneDefinition = {
 				'Believer',
 				'Annihilator',
 				'Vektor'
-			]
-		},
-		{
-			name: 'Blackened Thrash',
-			year: 1993,
-			heaviness: 83,
-			font: 'blackletter',
-			description: "Thrash riffing fused with black metal's evil atmosphere and raw tone.",
-			bands: [
-				'Aura Noir',
-				'Nifelheim',
-				'Desaster',
-				'Deströyer 666',
-				'Bewitched',
-				'Witchery',
-				'Toxic Holocaust',
-				'Midnight',
-				'Hellripper'
 			]
 		},
 		{

@@ -57,7 +57,7 @@ export const rootsRock: SceneDefinition = {
 				'Molly Hatchet',
 				'.38 Special',
 				'The Charlie Daniels Band',
-				'Wet Willie',
+				'The Black Crowes',
 				'Blackfoot',
 				'Drive-By Truckers'
 			]
@@ -77,7 +77,8 @@ export const rootsRock: SceneDefinition = {
 				'The Nitty Gritty Dirt Band',
 				'Linda Ronstadt',
 				'New Riders of the Purple Sage',
-				'Pure Prairie League'
+				'Pure Prairie League',
+				'The Band'
 			]
 		},
 		{
@@ -115,28 +116,11 @@ export const rootsRock: SceneDefinition = {
 			]
 		},
 		{
-			name: 'Roots Rock',
-			year: 1968,
-			heaviness: 16,
-			font: 'western',
-			description: 'Back-to-basics rock drawing on folk, blues, country and R&B.',
-			bands: [
-				'The Band',
-				'Little Feat',
-				'Los Lobos',
-				'The Blasters',
-				'John Hiatt',
-				'The BoDeans',
-				'The Black Crowes',
-				'Tedeschi Trucks Band'
-			]
-		},
-		{
 			name: 'Alt-Country',
 			year: 1990,
 			heaviness: 11,
 			font: 'western',
-			description: 'Country with punk attitude and indie-rock grit.',
+			description: 'Country with punk attitude and indie-rock grit, grown out of 80s cowpunk.',
 			bands: [
 				'Uncle Tupelo',
 				'Wilco',
@@ -145,7 +129,7 @@ export const rootsRock: SceneDefinition = {
 				'Whiskeytown',
 				'Ryan Adams',
 				"Old 97's",
-				'Drive-By Truckers',
+				'Jason & the Scorchers',
 				'Lucinda Williams',
 				'Jason Isbell'
 			]

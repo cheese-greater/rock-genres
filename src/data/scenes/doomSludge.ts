@@ -10,7 +10,8 @@ export const doomSludge: SceneDefinition = {
 			year: 1978,
 			heaviness: 70,
 			font: 'blackletter',
-			description: 'Slow tempos and crushing heaviness rooted in early Sabbath.',
+			description:
+				'Slow tempos and crushing heaviness rooted in early Sabbath, at times with epic, operatic grandeur.',
 			bands: [
 				'Pentagram',
 				'Witchfinder General',
@@ -22,25 +23,6 @@ export const doomSludge: SceneDefinition = {
 				'Electric Wizard',
 				'Reverend Bizarre',
 				'Pallbearer'
-			]
-		},
-		{
-			name: 'Epic Doom',
-			year: 1986,
-			heaviness: 67,
-			font: 'blackletter',
-			description: 'Doom with operatic vocals, grand melodies and cathedral-sized riffs.',
-			bands: [
-				'Candlemass',
-				'Solitude Aeturnus',
-				'Count Raven',
-				'Solstice',
-				'Memory Garden',
-				'Isole',
-				'Doomsword',
-				'Krux',
-				'Sorcerer',
-				'Scald'
 			]
 		},
 		{

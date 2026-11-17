@@ -63,24 +63,6 @@ export const metalcore: SceneDefinition = {
 			]
 		},
 		{
-			name: 'Progressive Metalcore',
-			year: 2008,
-			heaviness: 75,
-			font: 'condensed',
-			description: 'Metalcore with djent rhythms, ambient textures and progressive song structures.',
-			bands: [
-				'Veil of Maya',
-				'Erra',
-				'Northlane',
-				'Architects',
-				'Invent Animate',
-				'Polaris',
-				'Currents',
-				'Silent Planet',
-				'Make Them Suffer'
-			]
-		},
-		{
 			name: 'Electronicore',
 			year: 2007,
 			heaviness: 64,

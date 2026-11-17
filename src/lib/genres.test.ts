@@ -70,14 +70,24 @@ describe('sortGenres', () => {
 	const soft = makeGenre('Soft', { heaviness: 10, year: 1990 });
 	const heavy = makeGenre('Heavy', { heaviness: 90, year: 1970 });
 
+	const noPicks: ReadonlySet<string> = new Set();
+
 	it('sorts by heaviness or by year', () => {
-		expect(sortGenres([heavy, soft], 'heaviness', []).map((genre) => genre.name)).toEqual(['Soft', 'Heavy']);
-		expect(sortGenres([soft, heavy], 'timeline', []).map((genre) => genre.name)).toEqual(['Heavy', 'Soft']);
+		expect(sortGenres([heavy, soft], 'heaviness', noPicks).map((genre) => genre.name)).toEqual(['Soft', 'Heavy']);
+		expect(sortGenres([soft, heavy], 'timeline', noPicks).map((genre) => genre.name)).toEqual(['Heavy', 'Soft']);
 	});
 
-	it('follows the captured favorite order', () => {
-		expect(sortGenres([soft, heavy], 'favorites', ['heavy', 'soft']).map((genre) => genre.name)).toEqual([
-			'Heavy',
+	it('re-ranks favorites from the current picks', () => {
+		const pickedHeavy = makeGenre('Picked Heavy', {
+			bands: ['Heavy A', 'Heavy B', 'Heavy C', 'Heavy D', 'Heavy E'],
+			heaviness: 90
+		});
+		expect(sortGenres([pickedHeavy, soft], 'favorites', noPicks).map((genre) => genre.name)).toEqual([
+			'Soft',
+			'Picked Heavy'
+		]);
+		expect(sortGenres([soft, pickedHeavy], 'favorites', new Set(['Heavy A'])).map((genre) => genre.name)).toEqual([
+			'Picked Heavy',
 			'Soft'
 		]);
 	});

@@ -29,7 +29,8 @@ export const folkSymphonic: SceneDefinition = {
 			year: 1990,
 			heaviness: 62,
 			font: 'blackletter',
-			description: 'Metal played with fiddles, bagpipes, accordions and traditional melodies.',
+			description:
+				'Metal played with fiddles, bagpipes, hurdy-gurdies and traditional melodies, Celtic and medieval alike.',
 			bands: [
 				'Skyclad',
 				'Cruachan',
@@ -39,7 +40,7 @@ export const folkSymphonic: SceneDefinition = {
 				'Eluveitie',
 				'Turisas',
 				'Equilibrium',
-				'Arkona',
+				'In Extremo',
 				'The Hu'
 			]
 		},
@@ -82,47 +83,12 @@ export const folkSymphonic: SceneDefinition = {
 			]
 		},
 		{
-			name: 'Celtic Metal',
-			year: 1992,
-			heaviness: 63,
-			font: 'pirate',
-			description: 'Irish, Scottish and Gaulish folk traditions woven into metal.',
-			bands: [
-				'Cruachan',
-				'Waylander',
-				'Primordial',
-				'Mael Mórdha',
-				'Geasa',
-				'Suidakra',
-				'Eluveitie',
-				'Darkest Era',
-				'Celtachor'
-			]
-		},
-		{
 			name: 'Pirate Metal',
 			year: 2006,
 			heaviness: 60,
 			font: 'pirate',
 			description: 'Shanty choruses, accordion jigs and swashbuckling, rum-soaked power metal.',
 			bands: ['Running Wild', 'Alestorm', 'Swashbuckle', 'Lagerstein', 'Red Rum', 'Storm Seeker', 'Rumahoy']
-		},
-		{
-			name: 'Medieval Metal',
-			year: 1995,
-			heaviness: 50,
-			font: 'blackletter',
-			description: 'Bagpipes, hurdy-gurdies and shawms meet distorted guitars.',
-			bands: [
-				'In Extremo',
-				'Subway to Sally',
-				'Tanzwut',
-				'Schandmaul',
-				'Saltatio Mortis',
-				'Letzte Instanz',
-				'Feuerschwanz',
-				'dArtagnan'
-			]
 		},
 		{
 			name: 'Oriental Metal',

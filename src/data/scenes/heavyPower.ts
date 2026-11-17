@@ -105,12 +105,13 @@ export const heavyPower: SceneDefinition = {
 			year: 1983,
 			heaviness: 67,
 			font: 'rocker',
-			description: 'The American take on power metal: heavier, darker and riffier than the European style.',
+			description:
+				'The American take on power metal: heavier, darker, riffier and given to sword-and-sorcery epics.',
 			bands: [
 				'Riot',
 				'Omen',
 				'Jag Panzer',
-				'Liege Lord',
+				'Manilla Road',
 				'Helstar',
 				'Savatage',
 				'Crimson Glory',
@@ -136,25 +137,6 @@ export const heavyPower: SceneDefinition = {
 				'Edguy',
 				'Sabaton',
 				'DragonForce'
-			]
-		},
-		{
-			name: 'Epic Heavy Metal',
-			year: 1980,
-			heaviness: 63,
-			font: 'pirate',
-			description: 'Sword-and-sorcery heavy metal with marching tempos and heroic sagas.',
-			bands: [
-				'Manowar',
-				'Manilla Road',
-				'Cirith Ungol',
-				'Warlord',
-				'Virgin Steele',
-				'Brocas Helm',
-				'Battleroar',
-				'Atlantean Kodex',
-				'Eternal Champion',
-				'Visigoth'
 			]
 		},
 		{

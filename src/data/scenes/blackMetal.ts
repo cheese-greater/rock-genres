@@ -158,23 +158,6 @@ export const blackMetal: SceneDefinition = {
 			]
 		},
 		{
-			name: 'Orthodox Black Metal',
-			year: 2000,
-			heaviness: 90,
-			font: 'blackletter',
-			description: 'Theologically serious, ritualistic black metal with dense, dissonant riffing.',
-			bands: [
-				'Funeral Mist',
-				'Ofermod',
-				'Watain',
-				'Deathspell Omega',
-				'Ondskapt',
-				'Antaeus',
-				'Acherontas',
-				'Valkyrja'
-			]
-		},
-		{
 			name: 'Avant-Garde Black Metal',
 			year: 1995,
 			heaviness: 87,
@@ -192,30 +175,6 @@ export const blackMetal: SceneDefinition = {
 				'Ihsahn',
 				'Oranssi Pazuzu'
 			]
-		},
-		{
-			name: 'Industrial Black Metal',
-			year: 1995,
-			heaviness: 88,
-			font: 'space',
-			description: 'Black metal with drum machines, electronics and cold mechanical precision.',
-			bands: ['Mysticum', 'Samael', 'The Kovenant', 'Thorns', 'Aborym', 'Dødheimsgard', 'Blacklodge']
-		},
-		{
-			name: "Black 'n' Roll",
-			year: 2000,
-			heaviness: 79,
-			font: 'rocker',
-			description: "Black metal's filth wedded to punk and rock 'n' roll swagger.",
-			bands: ['Darkthrone', 'Satyricon', 'Khold', 'Vreid', 'Glorior Belli', 'Kvelertak', 'Midnight']
-		},
-		{
-			name: 'Cascadian Black Metal',
-			year: 2003,
-			heaviness: 80,
-			font: 'blackletter',
-			description: 'Pacific Northwest black metal steeped in forests, ecology and post-rock.',
-			bands: ['Agalloch', 'Wolves in the Throne Room', 'Ash Borer', 'Fell Voices', 'Skagos', 'Alda', 'Addaura']
 		},
 		{
 			name: 'Blackgaze',

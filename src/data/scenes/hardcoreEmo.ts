@@ -29,7 +29,8 @@ export const hardcoreEmo: SceneDefinition = {
 			year: 1981,
 			heaviness: 70,
 			font: 'marker',
-			description: 'Tough, groove-driven hardcore with metal crunch and crew pride.',
+			description:
+				'Tough, groove-driven hardcore with metal crunch, crew pride and a straight-edge youth crew wing.',
 			bands: [
 				'Agnostic Front',
 				'Cro-Mags',
@@ -38,28 +39,9 @@ export const hardcoreEmo: SceneDefinition = {
 				'Sick of It All',
 				'Youth of Today',
 				'Gorilla Biscuits',
-				'Biohazard',
+				'Judge',
 				'Madball',
 				'H2O'
-			]
-		},
-		{
-			name: 'Youth Crew',
-			year: 1985,
-			heaviness: 66,
-			font: 'marker',
-			description: 'Straight-edge hardcore with X-ed hands, gang vocals and positive messages.',
-			bands: [
-				'Youth of Today',
-				'Gorilla Biscuits',
-				'Judge',
-				'Bold',
-				'Chain of Strength',
-				'Insted',
-				'Uniform Choice',
-				'Side by Side',
-				'Project X',
-				'Champion'
 			]
 		},
 		{
@@ -181,7 +163,8 @@ export const hardcoreEmo: SceneDefinition = {
 			year: 1985,
 			heaviness: 35,
 			font: 'typewriter',
-			description: 'Emotional hardcore that grew into confessional, twinkling Midwest guitar rock.',
+			description:
+				'Emotional hardcore that grew into confessional, twinkling Midwest guitar rock and a 2010s basement revival.',
 			bands: [
 				'Rites of Spring',
 				'Embrace',
@@ -191,7 +174,7 @@ export const hardcoreEmo: SceneDefinition = {
 				'Mineral',
 				'Braid',
 				'The Promise Ring',
-				'Texas Is the Reason',
+				'Modern Baseball',
 				'American Football'
 			]
 		},
@@ -231,25 +214,6 @@ export const hardcoreEmo: SceneDefinition = {
 				'pg.99',
 				'City of Caterpillar',
 				'Envy'
-			]
-		},
-		{
-			name: 'Emo Revival',
-			year: 2009,
-			heaviness: 33,
-			font: 'typewriter',
-			description: 'A new wave of twinkly, Midwest-style emo from basements and DIY venues.',
-			bands: [
-				'Algernon Cadwallader',
-				'Snowing',
-				'Into It. Over It.',
-				'Tigers Jaw',
-				'Modern Baseball',
-				'The Hotelier',
-				'The World Is a Beautiful Place & I Am No Longer Afraid to Die',
-				'Foxing',
-				'Hop Along',
-				'Mom Jeans'
 			]
 		}
 	]

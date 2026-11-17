@@ -67,7 +67,7 @@ export const hardRock: SceneDefinition = {
 			description: 'Fuzz-saturated, jam-heavy rock where psychedelia and proto-metal meet.',
 			bands: [
 				'Blue Cheer',
-				'Leaf Hound',
+				'Vanilla Fudge',
 				'Captain Beyond',
 				'Pink Fairies',
 				'Earthless',
@@ -101,7 +101,8 @@ export const hardRock: SceneDefinition = {
 			year: 1990,
 			heaviness: 54,
 			font: 'pirate',
-			description: 'Groovy, fuzzed-out riffs, desert haze and a heavy debt to the 70s.',
+			description:
+				'Groovy, fuzzed-out riffs born at Palm Desert generator parties, with a heavy debt to the 70s.',
 			bands: [
 				'Kyuss',
 				'Queens of the Stone Age',
@@ -110,28 +111,9 @@ export const hardRock: SceneDefinition = {
 				'Clutch',
 				'Nebula',
 				'Orange Goblin',
-				'Truckfighters',
+				'Masters of Reality',
 				'Wolfmother',
 				'Red Fang'
-			]
-		},
-		{
-			name: 'Desert Rock',
-			year: 1987,
-			heaviness: 53,
-			font: 'western',
-			description: 'The Palm Desert scene: generator parties, droning grooves and sun-baked fuzz.',
-			bands: [
-				'Kyuss',
-				'Yawning Man',
-				'Fatso Jetson',
-				'Masters of Reality',
-				'Queens of the Stone Age',
-				'Brant Bjork',
-				'Unida',
-				'Hermano',
-				'Mondo Generator',
-				'Eagles of Death Metal'
 			]
 		}
 	]

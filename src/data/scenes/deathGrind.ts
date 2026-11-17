@@ -29,7 +29,7 @@ export const deathGrind: SceneDefinition = {
 			year: 1988,
 			heaviness: 86,
 			font: 'pirate',
-			description: "Stockholm's buzzsaw HM-2 guitar tone and punky d-beat drive.",
+			description: "Stockholm's buzzsaw HM-2 guitar tone, punky d-beat drive and later death 'n' roll swagger.",
 			bands: [
 				'Nihilist',
 				'Entombed',
@@ -86,7 +86,7 @@ export const deathGrind: SceneDefinition = {
 			year: 1991,
 			heaviness: 94,
 			font: 'pirate',
-			description: 'Maximum heaviness: guttural vocals, relentless blasts and gore.',
+			description: 'Maximum heaviness: guttural vocals, relentless blasts, gore and crushing slam breakdowns.',
 			bands: [
 				'Suffocation',
 				'Cannibal Corpse',
@@ -99,33 +99,6 @@ export const deathGrind: SceneDefinition = {
 				'Defeated Sanity',
 				'Pyrexia'
 			]
-		},
-		{
-			name: 'Slam Death Metal',
-			year: 1993,
-			heaviness: 96,
-			font: 'pirate',
-			description: 'Brutal death metal slowed into crushing, groove-heavy slam riffs.',
-			bands: [
-				'Internal Bleeding',
-				'Pyrexia',
-				'Devourment',
-				'Cephalotripsy',
-				'Abominable Putridity',
-				'Kraanium',
-				'Waking the Cadaver',
-				'Ingested',
-				'Analepsy',
-				'Disentomb'
-			]
-		},
-		{
-			name: "Death 'n' Roll",
-			year: 1993,
-			heaviness: 80,
-			font: 'rocker',
-			description: "Death metal growls over swaggering rock 'n' roll riffs.",
-			bands: ['Entombed', 'Xysma', 'Gorefest', 'Carcass', 'Debauchery', 'Entombed A.D.']
 		},
 		{
 			name: 'Blackened Death Metal',
@@ -174,7 +147,7 @@ export const deathGrind: SceneDefinition = {
 				'Napalm Death',
 				'Carcass',
 				'Terrorizer',
-				'Extreme Noise Terror',
+				'Cattle Decapitation',
 				'Brutal Truth',
 				'Nasum',
 				'Discordance Axis',
@@ -199,25 +172,6 @@ export const deathGrind: SceneDefinition = {
 				'Gut',
 				'Exhumed',
 				'County Medical Examiners'
-			]
-		},
-		{
-			name: 'Deathgrind',
-			year: 1990,
-			heaviness: 95,
-			font: 'pirate',
-			description: 'Death metal heft and grindcore speed in one relentless package.',
-			bands: [
-				'Terrorizer',
-				'Napalm Death',
-				'Brutal Truth',
-				'Lock Up',
-				'Cephalic Carnage',
-				'Misery Index',
-				'Rotten Sound',
-				'Cattle Decapitation',
-				'Benighted',
-				'Full of Hell'
 			]
 		}
 	]

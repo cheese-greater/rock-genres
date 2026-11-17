@@ -10,7 +10,7 @@ export const psychProg: SceneDefinition = {
 			year: 1966,
 			heaviness: 22,
 			font: 'groovy',
-			description: 'Mind-expanding studio experiments, fuzz, feedback and Eastern drones.',
+			description: 'Mind-expanding studio experiments, fuzz, feedback, Eastern drones and long acid-rock jams.',
 			bands: [
 				'The Jimi Hendrix Experience',
 				'Jefferson Airplane',
@@ -20,26 +20,8 @@ export const psychProg: SceneDefinition = {
 				'Love',
 				'Grateful Dead',
 				'Cream',
-				'The Electric Prunes',
-				'Os Mutantes'
-			]
-		},
-		{
-			name: 'Acid Rock',
-			year: 1966,
-			heaviness: 34,
-			font: 'groovy',
-			description: "Psychedelia's louder, heavier strain, built on long distorted jams.",
-			bands: [
-				'Blue Cheer',
-				'Iron Butterfly',
-				'Quicksilver Messenger Service',
-				'Vanilla Fudge',
-				'Steppenwolf',
 				'Big Brother and the Holding Company',
-				'Country Joe and the Fish',
-				'The Amboy Dukes',
-				'Spirit'
+				'Os Mutantes'
 			]
 		},
 		{
@@ -84,7 +66,8 @@ export const psychProg: SceneDefinition = {
 			year: 1968,
 			heaviness: 25,
 			font: 'condensed',
-			description: 'Long-form suites, classical ambition and virtuosic instrumental passages.',
+			description:
+				'Long-form suites, classical ambition and virtuosic playing, from the 70s giants to 80s neo-prog.',
 			bands: [
 				'King Crimson',
 				'Yes',
@@ -95,7 +78,7 @@ export const psychProg: SceneDefinition = {
 				'Rush',
 				'Van der Graaf Generator',
 				'Gentle Giant',
-				'Camel'
+				'Marillion'
 			]
 		},
 		{
@@ -175,19 +158,12 @@ export const psychProg: SceneDefinition = {
 			]
 		},
 		{
-			name: 'Zeuhl',
-			year: 1970,
-			heaviness: 36,
-			font: 'space',
-			description: "Magma's own invented style: martial, choral and sung in a constructed language.",
-			bands: ['Magma', 'Weidorje', 'Eskaton', 'Zao', 'Dün', 'Shub-Niggurath', 'Rhùn', 'Koenjihyakkei', 'Ruins']
-		},
-		{
 			name: 'Avant-Prog',
-			year: 1978,
+			year: 1973,
 			heaviness: 33,
 			font: 'typewriter',
-			description: 'Uncompromising, chamber-influenced experimental rock from the Rock in Opposition movement.',
+			description:
+				"Uncompromising, chamber-influenced experimental rock, from Magma's Zeuhl to the Rock in Opposition movement.",
 			bands: [
 				'Henry Cow',
 				'Univers Zéro',
@@ -198,16 +174,8 @@ export const psychProg: SceneDefinition = {
 				'Art Bears',
 				'Thinking Plague',
 				'Present',
-				'Miriodor'
+				'Magma'
 			]
-		},
-		{
-			name: 'Neo-Prog',
-			year: 1980,
-			heaviness: 22,
-			font: 'condensed',
-			description: '80s revival of melodic, keyboard-rich progressive rock.',
-			bands: ['Marillion', 'IQ', 'Pendragon', 'Pallas', 'Twelfth Night', 'Arena', 'Galahad', 'Jadis']
 		},
 		{
 			name: 'Neo-Psychedelia',

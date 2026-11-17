@@ -63,28 +63,12 @@ export const earlyRock: SceneDefinition = {
 			]
 		},
 		{
-			name: 'Merseybeat',
-			year: 1961,
-			heaviness: 10,
-			font: 'condensed',
-			description: "Liverpool's driving, harmony-rich guitar pop that powered the British Invasion.",
-			bands: [
-				'The Beatles',
-				'Gerry and the Pacemakers',
-				'The Searchers',
-				'The Hollies',
-				'The Swinging Blue Jeans',
-				'Billy J. Kramer & the Dakotas',
-				'The Merseybeats',
-				'The Fourmost'
-			]
-		},
-		{
 			name: 'British Invasion',
 			year: 1964,
 			heaviness: 13,
 			font: 'condensed',
-			description: 'The mid-60s wave of UK bands that took over the American charts.',
+			description:
+				"The mid-60s wave of UK bands, Liverpool's Merseybeat among them, that took over the American charts.",
 			bands: [
 				'The Beatles',
 				'The Rolling Stones',
@@ -95,7 +79,7 @@ export const earlyRock: SceneDefinition = {
 				"Herman's Hermits",
 				'The Dave Clark Five',
 				'Them',
-				'Manfred Mann'
+				'The Hollies'
 			]
 		},
 		{

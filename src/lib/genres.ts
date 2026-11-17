@@ -51,17 +51,10 @@ export function rankByPicks(genres: readonly Genre[], picks: ReadonlySet<string>
 	});
 }
 
-// Favorites use a ranking captured when the sort was chosen, so tiles do not jump while you pick bands.
-export function sortGenres(genres: readonly Genre[], sortMode: SortMode, favoriteOrder: readonly string[]): Genre[] {
+// Favorites follow the current picks, so the board re-ranks as bands are picked.
+export function sortGenres(genres: readonly Genre[], sortMode: SortMode, picks: ReadonlySet<string>): Genre[] {
 	if (sortMode === 'timeline') return [...genres].sort(compareByYear);
-	if (sortMode === 'favorites') {
-		const rankById = new Map(favoriteOrder.map((id, rank) => [id, rank]));
-		return [...genres].sort(
-			(first, second) =>
-				(rankById.get(first.id) ?? Infinity) - (rankById.get(second.id) ?? Infinity) ||
-				compareByHeaviness(first, second)
-		);
-	}
+	if (sortMode === 'favorites') return rankByPicks(genres, picks);
 	return [...genres].sort(compareByHeaviness);
 }
 

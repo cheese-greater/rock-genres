@@ -39,7 +39,8 @@ export const popArena: SceneDefinition = {
 				'Matchbox Twenty',
 				'Goo Goo Dolls',
 				'Third Eye Blind',
-				'Train'
+				'Train',
+				'INXS'
 			]
 		},
 		{
@@ -55,7 +56,7 @@ export const popArena: SceneDefinition = {
 				'Cheap Trick',
 				'The Knack',
 				'The Records',
-				"The dB's",
+				'The Jam',
 				'Teenage Fanclub',
 				'Weezer',
 				'Fountains of Wayne'
@@ -114,24 +115,6 @@ export const popArena: SceneDefinition = {
 				'Fishbone',
 				'Lenny Kravitz',
 				'Incubus'
-			]
-		},
-		{
-			name: 'Dance-Rock',
-			year: 1978,
-			heaviness: 18,
-			font: 'neon',
-			description: 'Four-on-the-floor beats and rock guitars built for the dance floor.',
-			bands: [
-				'Blondie',
-				'Talking Heads',
-				'INXS',
-				'New Order',
-				'Primal Scream',
-				'Franz Ferdinand',
-				'The Killers',
-				'Bloc Party',
-				'Kasabian'
 			]
 		},
 		{

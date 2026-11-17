@@ -132,7 +132,8 @@ export const punk: SceneDefinition = {
 				'Calabrese',
 				'Blitzkid',
 				'Murderdolls',
-				'Wednesday 13'
+				'Wednesday 13',
+				'45 Grave'
 			]
 		},
 		{
@@ -209,24 +210,6 @@ export const punk: SceneDefinition = {
 			]
 		},
 		{
-			name: 'Garage Punk',
-			year: 1986,
-			heaviness: 48,
-			font: 'marker',
-			description: "Trashy, lo-fi rock 'n' roll at punk velocity.",
-			bands: [
-				'The Gories',
-				'Thee Headcoats',
-				'The Mummies',
-				'The Dwarves',
-				'Devil Dogs',
-				'New Bomb Turks',
-				'The Oblivians',
-				'Teengenerate',
-				'Jay Reatard'
-			]
-		},
-		{
 			name: 'Punk Blues',
 			year: 1980,
 			heaviness: 41,
@@ -241,7 +224,8 @@ export const punk: SceneDefinition = {
 				'Jon Spencer Blues Explosion',
 				'Bob Log III',
 				'The White Stripes',
-				'The Kills'
+				'The Kills',
+				'The Oblivians'
 			]
 		},
 		{
@@ -283,29 +267,11 @@ export const punk: SceneDefinition = {
 			]
 		},
 		{
-			name: 'Cowpunk',
-			year: 1981,
-			heaviness: 37,
-			font: 'western',
-			description: 'Punk rock crossed with country twang and rockabilly.',
-			bands: [
-				'Jason & the Scorchers',
-				'The Gun Club',
-				'Rank and File',
-				'Meat Puppets',
-				'The Mekons',
-				'Blood on the Saddle',
-				'Tex and the Horseheads',
-				'The Beat Farmers',
-				'Lone Justice'
-			]
-		},
-		{
 			name: 'Dance-Punk',
 			year: 1979,
 			heaviness: 29,
 			font: 'neon',
-			description: 'Punk and post-punk wired to disco and funk rhythms.',
+			description: 'Punk and post-punk wired to disco, funk and four-on-the-floor dance beats.',
 			bands: [
 				'ESG',
 				'A Certain Ratio',
@@ -315,7 +281,8 @@ export const punk: SceneDefinition = {
 				'LCD Soundsystem',
 				'!!!',
 				'Radio 4',
-				'Death from Above 1979'
+				'Death from Above 1979',
+				'New Order'
 			]
 		}
 	]

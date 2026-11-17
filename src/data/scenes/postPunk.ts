@@ -61,57 +61,23 @@ export const postPunk: SceneDefinition = {
 			]
 		},
 		{
-			name: 'Mod Revival',
-			year: 1978,
-			heaviness: 27,
-			font: 'condensed',
-			description: 'Late-70s return of sharp suits, scooters and R&B-driven guitar pop.',
-			bands: [
-				'The Jam',
-				'Secret Affair',
-				'The Lambrettas',
-				'Purple Hearts',
-				'The Chords',
-				'The Merton Parkas',
-				'Squire',
-				'The Prisoners'
-			]
-		},
-		{
 			name: 'Gothic Rock',
 			year: 1979,
 			heaviness: 34,
 			font: 'blackletter',
-			description: 'Post-punk turned dark: baritone vocals, flanged guitars and drum machines.',
+			description:
+				'Post-punk turned dark, from British goth to LA deathrock: baritone vocals, flanged guitars and drum machines.',
 			bands: [
 				'Bauhaus',
 				'Siouxsie and the Banshees',
 				'The Cure',
 				'The Sisters of Mercy',
 				'Southern Death Cult',
-				'The Danse Society',
+				'Christian Death',
 				'Xmal Deutschland',
 				'Fields of the Nephilim',
 				'The Mission',
 				'Clan of Xymox'
-			]
-		},
-		{
-			name: 'Deathrock',
-			year: 1979,
-			heaviness: 41,
-			font: 'blackletter',
-			description: "Los Angeles' punkier, horror-steeped cousin of gothic rock.",
-			bands: [
-				'Christian Death',
-				'45 Grave',
-				'Super Heroines',
-				'Kommunity FK',
-				'Alien Sex Fiend',
-				'Specimen',
-				'Sex Gang Children',
-				'Cinema Strange',
-				'Bloody Dead and Sexy'
 			]
 		},
 		{

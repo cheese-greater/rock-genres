@@ -10,37 +10,19 @@ export const alternativeIndie: SceneDefinition = {
 			year: 1984,
 			heaviness: 31,
 			font: 'condensed',
-			description: 'The umbrella for 80s and 90s rock that grew up outside the mainstream.',
+			description:
+				'The umbrella for 80s and 90s rock that grew up outside the mainstream, starting on college radio.',
 			bands: [
 				'R.E.M.',
 				'Pixies',
 				"Jane's Addiction",
 				'The Smashing Pumpkins',
 				'Radiohead',
-				'Weezer',
+				'The Replacements',
 				'Beck',
 				'The Cranberries',
 				'Garbage',
 				'Muse'
-			]
-		},
-		{
-			name: 'College Rock',
-			year: 1982,
-			heaviness: 19,
-			font: 'typewriter',
-			description: 'Early alternative championed by US college radio stations.',
-			bands: [
-				'R.E.M.',
-				'The Replacements',
-				'Hüsker Dü',
-				'The Feelies',
-				'10,000 Maniacs',
-				'Violent Femmes',
-				"Let's Active",
-				'Camper Van Beethoven',
-				'They Might Be Giants',
-				'The Connells'
 			]
 		},
 		{
@@ -59,24 +41,7 @@ export const alternativeIndie: SceneDefinition = {
 				'The Feelies',
 				"The dB's",
 				"The La's",
-				'Real Estate'
-			]
-		},
-		{
-			name: 'Paisley Underground',
-			year: 1982,
-			heaviness: 17,
-			font: 'groovy',
-			description: 'Los Angeles bands reviving 60s psychedelia and folk rock.',
-			bands: [
-				'The Dream Syndicate',
-				'Rain Parade',
-				'The Bangles',
-				'Green on Red',
-				"The Three O'Clock",
-				'The Long Ryders',
-				'Opal',
-				'True West'
+				'The Bangles'
 			]
 		},
 		{
@@ -89,7 +54,7 @@ export const alternativeIndie: SceneDefinition = {
 				'Pavement',
 				'Built to Spill',
 				'Modest Mouse',
-				'Guided by Voices',
+				'Dinosaur Jr.',
 				'Yo La Tengo',
 				'Superchunk',
 				'Spoon',
@@ -154,25 +119,6 @@ export const alternativeIndie: SceneDefinition = {
 			]
 		},
 		{
-			name: 'Noise Pop',
-			year: 1985,
-			heaviness: 25,
-			font: 'marker',
-			description: 'Sweet pop melodies buried under walls of feedback and fuzz.',
-			bands: [
-				'The Jesus and Mary Chain',
-				'Dinosaur Jr.',
-				'Black Tambourine',
-				'Velocity Girl',
-				"Eric's Trip",
-				'Medicine',
-				'Swirlies',
-				'Times New Viking',
-				'Sleigh Bells',
-				'No Age'
-			]
-		},
-		{
 			name: 'Dream Pop',
 			year: 1983,
 			heaviness: 4,
@@ -196,13 +142,14 @@ export const alternativeIndie: SceneDefinition = {
 			year: 1988,
 			heaviness: 28,
 			font: 'typewriter',
-			description: 'Walls of effects-pedal guitar noise with vocals melted into the mix.',
+			description:
+				'Walls of effects-pedal guitar noise and buried pop melodies, with vocals melted into the mix.',
 			bands: [
 				'My Bloody Valentine',
 				'Slowdive',
 				'Ride',
 				'Lush',
-				'Chapterhouse',
+				'The Jesus and Mary Chain',
 				'Swervedriver',
 				'Pale Saints',
 				'Catherine Wheel',
@@ -244,7 +191,8 @@ export const alternativeIndie: SceneDefinition = {
 				'Northside',
 				'The Farm',
 				'Paris Angels',
-				'The High'
+				'The High',
+				'Primal Scream'
 			]
 		},
 		{

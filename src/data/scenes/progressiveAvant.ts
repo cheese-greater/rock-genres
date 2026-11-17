@@ -59,7 +59,7 @@ export const progressiveAvant: SceneDefinition = {
 				'Monuments',
 				'After the Burial',
 				'Born of Osiris',
-				'Volumes'
+				'Northlane'
 			]
 		},
 		{
